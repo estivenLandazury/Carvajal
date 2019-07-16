@@ -67,6 +67,11 @@
     }
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .header .header-bottom .menu ul li a {
         padding-left: 17px;
