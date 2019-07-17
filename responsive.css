@@ -127,6 +127,11 @@
     .footer_carosal .footer_carosal_icon .item img {
         width: 100px;
     }
+
+    .col-6.col-md-4 {
+        /* width: 76%; */
+        margin-left: 19%;
+    }
     
 }
 
@@ -223,6 +228,12 @@
         height: auto;
     }
 
+    .col-6.col-md-4 {
+        /* width: 76%; */
+        margin-left: 19%;
+    }
+    
+
     @media (min-width: 375px){
     body {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -234,6 +245,9 @@
         /* text-align: center; */
         margin-left: 0%;
         margin-right: 7%;
+    }
+    center {
+        text-align: justify;
     }
 }
 
@@ -253,6 +267,17 @@
 .title_uno {
     text-align: center;
 }
+
+.footer {
+    background: #2e2e2e;
+    padding-top: 80px;
+    /* width: 100%; */
+    margin-left: -14%;
+    margin-right: -14%;
+}
+center {
+    text-align: justify;
+}
       
         }
 
@@ -270,6 +295,18 @@
             }
             .title_uno {
                 text-align: center;
+            }
+
+            .footer {
+                background: #2e2e2e;
+                padding-top: 80px;
+                /* width: 100%; */
+                margin-left: -14%;
+                margin-right: -14%;
+            }
+
+            center {
+                text-align: justify;
             }
           
             }
@@ -290,6 +327,18 @@
     .logo {
         text-align: center;
         margin-top: 30px;
+    }
+
+    .footer {
+        background: #2e2e2e;
+        padding-top: 80px;
+        /* width: 100%; */
+        margin-left: -14%;
+        margin-right: -14%;
+    }
+
+    center {
+        text-align: justify;
     }
     }
 }

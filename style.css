@@ -552,7 +552,7 @@ text-transform: uppercase;
     text-align: center;
 }
 
-.our_cuauses h2. {
+.our_cuauses h2 {
     color: #3c354e;
     font-family: "Roboto", sans-serif;
     font-size: 32px;
@@ -1020,7 +1020,7 @@ text-transform: uppercase;
 
 }
 .footer_carosal .item img{
-    width: 192,
+    width: 192;
         height: 105px;
 
 }
@@ -1260,12 +1260,11 @@ text-transform: uppercase;
 .modal-body{
     align-content: center;
 }
-.logo{
-    text-align: right;
+.logo {
+    text-align: center;
 }
 .logo img{
     width: 150px;
-    height: ;
 }
 .medio{
     margin-left: 8%;
