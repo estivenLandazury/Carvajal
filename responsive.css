@@ -9,6 +9,8 @@
 
 
 
+
+
 @media (min-width: 1200px) and (max-width: 3000px) {
     .our_activity .single-Promo {
         margin: 100px 30px 0;
@@ -286,6 +288,10 @@ center {
 .col-6.col-md-4 {
     /* width: 76%; */
     margin-left: 4%;
+}
+
+.carosal-area {
+    background-image:url(img/Prescriptiva/HeaderMinimun.png) !important;
 }
       
         }
