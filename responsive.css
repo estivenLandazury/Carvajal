@@ -282,11 +282,10 @@ section.hiden {
             text-align: center;
             font-size: 152% !important;
         }
-
         .block-wrapper .block p.text-block {
             color: #fff;
             font-family: "Roboto", sans-serif;
-            font-size: 12px;
+            font-size: 84% !important;
             font-weight: 400;
         }
 
