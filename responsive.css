@@ -232,6 +232,9 @@
         /* width: 76%; */
         margin-left: 8%    
     }
+    .carosal-area {
+        margin-top: 18%;
+    }
 
     .carosal-area img {
         -webkit-transition:all .9s ease; /* Safari y Chrome */
@@ -247,7 +250,12 @@
         -ms-transform:scale(2.30) translate(18%,0%);
         -o-transform:scale(2.30) translate(18%,0%);
         transform:scale(2.30) translate(18%,0%);
+        margin-top: 25% !important;
         }
+
+
+        
+
     
     
     
@@ -306,9 +314,7 @@ center {
     margin-left: 4%;
 }
 
-.carosal-area {
-    background-image:url(img/Prescriptiva/HeaderMinimun.png) !important;
-}
+
       
         }
 
