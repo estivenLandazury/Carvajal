@@ -58,6 +58,7 @@
 }
 .menu{
     padding: 10px;
+    position: fixed;
 
 }
 .nav li>a:hover{
