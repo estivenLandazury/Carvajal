@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['submit'])) {
+if(!empty($_POST)) {
  
     $email_to = "estiven.landazury@carvajal.com";
     $email_subject = "Solicitud de importancia";
@@ -75,7 +75,7 @@ if(isset($_POST['submit'])) {
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
-$enviado= @mail($email_to, $email_subject, $email_message, $headers); 
+$enviado=mail($email_to, $email_subject, $email_message, $headers); 
 if ($enviado)
   echo 'Email enviado correctamente';
 else
