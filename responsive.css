@@ -283,6 +283,13 @@ section.hiden {
             font-size: 152% !important;
         }
 
+        .block-wrapper .block p.text-block {
+            color: #fff;
+            font-family: "Roboto", sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+        }
+
 
         
 
