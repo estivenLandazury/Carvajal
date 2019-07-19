@@ -8,6 +8,10 @@
 }
 
 
+section.hiden {
+    display: none;
+}
+
 
 @media (min-width: 1200px) and (max-width: 3000px) {
     .our_activity .single-Promo {
@@ -251,6 +255,31 @@
         -o-transform:scale(2.30) translate(18%,0%);
         transform:scale(2.30) translate(18%,0%);
         margin-top: 25% !important;
+        }
+
+        .single-Promo {
+            border-radius: 7px;
+            box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+            margin: 100px 35px 0;
+            padding: 40px 45px;
+            position: relative;
+            margin-top: 2%;
+        }
+
+        .image_process {
+            display: none;
+        }
+
+        section.hiden {
+            display: block;
+        }
+
+        h1.model1 {
+            text-align: center;
+            color: red;
+        }
+        h1.model {
+            text-align: center;
         }
 
 
