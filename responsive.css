@@ -12,6 +12,9 @@ section.hiden {
     display: none;
 }
 
+body {
+    overflow-x: hidden;
+}
 
 @media (min-width: 1200px) and (max-width: 3000px) {
     .our_activity .single-Promo {
