@@ -156,49 +156,7 @@
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="modalCenter" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title" id="exampleModalCenterTitle">Contáctanos</h2>
-                                </div>
-                                <div class="modal-body ">
-                                    <form enctype="text/plain" method="POST" action="send_form_email.php">
-                                        <div class="form-group">
-                                            <label for="recipient-name" class="col-form-label">Nombre:</label>
-                                            <input type="text" class="form-control" id="recipient-name"
-                                                name="first_name" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="recipient-name" class="col-form-label">Celular:</label>
-                                            <input class="form-control" type="tel" id="recipient-name" name="telephone"
-                                                required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="recipient-name" class="col-form-label">Empresa:</label>
-                                            <input type="text" class="form-control" id="recipient-name"
-                                                name="enterprise" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="message-text" class="col-form-label">¿Por qué esta
-                                                interesado?</label>
-                                            <textarea class="form-control" id="message-text" name="comments"
-                                                required></textarea>
-                                        </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btnCerrar" data-dismiss="modal">Cerrar</button>
-
-                                    <button type="submit" name='submit' value='submit'
-                                        class="btn botonEn">Enviar</button>
-                                    </form>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                   
             </div>
         </div>
         </div>
@@ -238,11 +196,11 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                                <div class="single-Promo">
-                                    <h1 class="model">Ejecución modelo</h1><br>
-                                    <h1 class="model1"> 4 </h1>
-                                </div>
+                            <div class="single-Promo">
+                                <h1 class="model">Ejecución modelo</h1><br>
+                                <h1 class="model1"> 4 </h1>
                             </div>
+                        </div>
 
                         <div class="col-lg-4">
                             <div class="single-Promo">
@@ -252,16 +210,15 @@
                         </div>
 
                     </div>
-
+                </section>
 
             </div>
         </div>
     </section>
 
 
-    </div>
-    </div>
-    </section>
+    
+    
 
 
 
@@ -273,9 +230,8 @@
                 <div class="linea"></div>
                 <div class="col-md-12">
                     <p>
-                        <center>Analítica es el proceso de transformación de datos en información relevante para la toma
-                            decisiones. Hay tres tipos de analítica: descriptiva, predictiva y prescriptiva.</center>
-                    </p>
+                        Analítica es el proceso de transformación de datos en información relevante para la toma
+                            decisiones. Hay tres tipos de analítica: descriptiva, predictiva y prescriptiva.                    </p>
                 </div>
             </div>
 
@@ -410,7 +366,7 @@
                                     <h2 class="modal-title" id="exampleModalCenterTitle">Contáctanos</h2>
                                 </div>
                                 <div class="modal-body">
-                                    <form method="POST" action="send_form_email.php">
+                                    <form method="POST" action="send_mail.php">
                                         <div class="form-group">
                                             <label for="recipient-name" class="col-form-label"> Nombre:</label>
                                             <input type="text" class="form-control" id="recipient-name"
@@ -432,12 +388,15 @@
                                             <textarea class="form-control" id="message-text" name="comments"></textarea>
                                         </div>
 
+                                         <div class="modal-footer">
+                                            <button type="button" class="btn btnCerrar"
+                                                data-dismiss="modal">Cerrar</button>
+                                            <button type="submmit" name='submit' value='submit' class="btn botonEn">Enviar</button>
+                                        </div>
+                                    </form>
                                 </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btnCerrar" data-dismiss="modal">Cerrar</button>
-                                    <button type="button" name='submit' value='submit'>Enviar</button>
-                                </div>
-                                </form>
+                                
+                                
                             </div>
                         </div>
                     </div>
