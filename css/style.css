@@ -425,7 +425,7 @@
 
 .background_seccion5
 {
-    min-height:1200px;
+    min-height:600px;
     background: white
 
 
@@ -436,7 +436,7 @@
 
 .footer_gradient
 {
-    min-height: 1200px !important;
+    min-height: 1000px !important;
     background: linear-gradient(312deg, rgba(91,59,255,1) 0%, rgba(46,198,236,1) 100%) !important; 
 }
 
@@ -459,15 +459,79 @@
 
 }
 .image_test {
-    width: 1500px;
-    height: 1000px;
+    width: 2000px;
+    height: 1200px;
     margin-top: -29%;
-    margin-left: 15%;
+    margin-left: -2%;
     z-index: 2;
     position: absolute;
 }
 
 
+.column_footer
+{
+    float: left;
+    width: 80%;
+
+
+}
+
+.left_container
+{
+
+
+    margin-top: 30%; 
+    margin-left: 9%;
+}
+
+.column_footer_rigth
+{
+
+    float: left;
+    width: 20%;
+    color: white;
+    font-family: 'Montserrat', sans-serif  !important;
+    font-weight: 300;
+
+}
+
+
+.title_footer{
+
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300;
+    font-size: 250%;
+    letter-spacing: 1px;
+
+}
+
+
+.text_footer
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 340;
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+
+.line_footer
+{
+
+    color:white; 
+    width: 29%;
+    margin-left: 0%;
+}
+
+.rigth_container
+{
+
+
+    margin-top: 70%; 
+    margin-right: 9%;
+}
 
 
 
