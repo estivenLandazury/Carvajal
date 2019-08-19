@@ -231,7 +231,7 @@
     right: 32%;
 }
 
-.img_title
+.img_title1
 {
     position: absolute;
     font-size: 250%;
@@ -242,7 +242,41 @@
     right:40%;
 }
 
-.img_text
+.img_title2
+{
+    position: absolute;
+    font-size: 250%;
+    color: white!important; 
+    font-family: 'Montserrat', sans-serif  !important;
+    font-weight: 900;
+    top:40%;
+    right:40%;
+}
+
+.img_title3
+{
+    position: absolute;
+    font-size: 250%;
+    color: white!important; 
+    font-family: 'Montserrat', sans-serif  !important;
+    font-weight: 900;
+    top:40%;
+    right:40%;
+}
+
+.img_title4
+{
+    position: absolute;
+    font-size: 250%;
+    color: white!important; 
+    font-family: 'Montserrat', sans-serif  !important;
+    font-weight: 900;
+    top:40%;
+    right:40%;
+}
+
+
+.img_text1
 {
     position: absolute;
     font-size: 190%;
@@ -253,6 +287,36 @@
     right:40%;
 }
 
+.img_text2
+{
+    position: absolute;
+    font-size: 190%;
+    color: white!important; 
+    font-family: 'Montserrat', sans-serif  !important;
+    font-weight: 100;
+    top:55%;
+    right:40%;
+}
+.img_text3
+{
+    position: absolute;
+    font-size: 190%;
+    color: white!important; 
+    font-family: 'Montserrat', sans-serif  !important;
+    font-weight: 100;
+    top:55%;
+    right:40%;
+}
+.img_text4
+{
+    position: absolute;
+    font-size: 190%;
+    color: white!important; 
+    font-family: 'Montserrat', sans-serif  !important;
+    font-weight: 100;
+    top:55%;
+    right:40%;
+}
 /*Fin la sección 2 */
 
 /*Inicio sección 3*/
@@ -659,3 +723,7 @@ FORM
 
 
 /*Fin de seccion 5*/
+
+
+
+
