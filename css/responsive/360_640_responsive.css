@@ -86,7 +86,7 @@
     {
         font-size: 144% !important;
         color: #4AC3E9;
-        font-weight: bolder;
+        font-weight: 400;
         text-shadow: 2px 0;
         letter-spacing: 1px;
     
@@ -152,7 +152,7 @@
             
         font-size: 109% !important;
         color: #338BFF;
-        font-weight: bolder;
+        font-weight: 400;
         text-shadow: 2px 0;
         letter-spacing: 4px;
         margin-left: 10%;
@@ -162,7 +162,7 @@
     {
         font-size: 150% !important;
         color: #041160;
-        font-weight: bolder;
+        font-weight: 400;
         text-shadow: 2px 0;
         letter-spacing: 1px;
         margin-left: 25%;
@@ -386,8 +386,8 @@
         background-color: white !important;
         background-image: url("../../SVG/Recurso\ 18.svg"),url("../../SVG/Recurso\ 14.svg"),url("../../SVG/Recurso\ 15.svg"),url("../../SVG/Recurso\ 16.svg"),url("../../SVG/Recurso\ 17.svg");
         background-repeat:no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
-        background-position: 0% 50%, 115% 20%,30% 5%,65% 100%,90% 100%; /* x - y*/
-        background-size: 45%,28%,10%,10%,10%;
+        background-position: 0% 1%, 115% 20%,30% 5%,65% 100%,90% 100%;
+        background-size: 97%,28%,10%,10%,10%;   
         height: 1000px !important;
         width: auto;
     
@@ -407,17 +407,23 @@
     .title_seccion4
     {
         font-family: 'Montserrat', sans-serif !important;
-        font-size: 280% !important;
+        font-size: 122% !important;
         color: white;
         font-weight: 300;
-        margin-top: 65%;
-        margin-left: 20%;
+        margin-top: 36%;
+        margin-left: 3%;
+        margin-top: 36%;
     
     
     }
+
+    .row4{
+
+        margin-top: 15%;
+    }
     .column4{
 
-        width:"100%" !important;
+        width:100% !important;
     }
     
     .card_number1
@@ -425,10 +431,10 @@
         position: relative;
         background-color: white;
         z-index: 2;
-        width: 440px;
-        height: 300px;
+        width: 300px;
+        height: 165px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        margin-left: 10%;
+        margin-left: 2%;
         margin-top: 6%;
         
     }
@@ -438,12 +444,11 @@
         position: relative;
         background-color: white;
         z-index: 2;
-        width: 440px;
-        height: 300px;
+        width: 300px;
+        height: 165px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        margin-top: 2%;
-        margin-left: 13%
-    
+        margin-left: 2%;
+        margin-top: 6%;
     }
     
     .card_number3
@@ -451,11 +456,11 @@
         position: relative;
         background-color: white;
         z-index: 2;
-        width: 440px;
-        height: 300px;
+        width: 300px;
+        height: 165px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        margin-top: 3%;
-        margin-left: 6%;
+        margin-left: 2%;
+        margin-top: 6%;
     }
     
     .card_number4
@@ -463,11 +468,11 @@
         position: relative;
         background-color: white;
         z-index: 2;
-        width: 440px;
-        height: 300px;
+        width: 300px;
+        height: 165px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        margin-top: -2%;
-        margin-left: 10%
+        margin-left: 2%;
+        margin-top: 6%;
     }
     
     .card_text
@@ -475,10 +480,10 @@
         margin-top: 6%;
         margin-left: 6px;
         color: #526775;
-        font-size: 150%;
+        font-size: 80%;
         font-family: 'Montserrat', sans-serif  !important;
         padding-top: 15%;
-        margin-left: 10%;
+        margin-left: 6%;
         font-weight: 300;  
     }
     
@@ -502,41 +507,41 @@
         color: #041160;
         margin-top: 4%;
         font-weight: 500;
-        font-size: 340%;
+        font-size: 138%;
         position: absolute;
         z-index: 4;
-        margin-left: 22%;
-        margin-top: -6%;
+        margin-left: 18%;
+        margin-top: -58%;
     
     }
     
     .form_tittle
     {
         font-family: 'Montserrat', sans-serif !important;
-        color: #041160;       
-        font-weight: 500;       
-        font-size: 300%;      
-        position: absolute;      
-        z-index: 4;      
-        margin-left: 56%;    
-        margin-top: -27%;
+        color: #041160;
+        font-weight: 500;
+        font-size: 100%;
+        position: absolute;
+        z-index: 4;
+        margin-left: 19%;
+        margin-top: -93%;
     }
     
     .button_form{
-        height: 8%;
-        font-size: 20px !important;      
-        background-color: #041160 !important;     
-        border: none !important;     
-        color: white !important;     
+        height: 7%;
+        font-size: 14px !important;
+        background-color: #041160 !important;
+        border: none !important;
+        color: white !important;
         text-decoration: none !important;
-        margin: -4% 65% !important;
+        margin: -37% 29% !important;
         cursor: pointer !important;
         border-radius: 35px;
-        padding: 1px 70px;
+        padding: 1px 42px;
         box-shadow: 0px 0px 66px -12px rgba(108,82,240,0.89);
         text-shadow: 1px 0;
         position: absolute;
-        z-index: 4;
+        z-index: 4
     }
     
     
@@ -544,12 +549,12 @@
     {
         position: absolute;
         z-index: 4;
-        margin-left: 59%;
-        font-size: 340%;
+        margin-left: 31%;
+        font-size: 100%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
-        margin-top:-17%;
+        margin-top: -70%;
     }
     
     
@@ -627,6 +632,7 @@
         margin-left: 6%;
         z-index: 2;
         position: absolute;
+        display: none;
     }
     
     
