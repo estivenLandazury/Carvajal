@@ -1,5 +1,11 @@
 @media(max-width:414px)
 {
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
     .logo{
 
         width:  100% !important;
