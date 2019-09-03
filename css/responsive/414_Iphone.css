@@ -624,12 +624,13 @@
     {
         position: absolute;
         z-index: 4;
-        margin-left: 32%;
-        font-size: 100%;
+        margin-left: 29%;
+        font-size: 119%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
         margin-top: -43%;
+        align-self: center;
     
     
     }
