@@ -1,8 +1,8 @@
-@media(max-width:375px)
+@media only screen and (max-width:375px) and (min-width:375px)
 {
     .logo{
 
-        width:  100% !important;
+        width:  200% !important;
         height: 100% !important;
         padding-left: 5% !important;
         
@@ -47,27 +47,27 @@
     
     /*Comienza la sección 1 */
     .title{
-     margin-top: 20%;
-     margin-left: 10%;
+     margin-top: 20% !important;
+     margin-left: 10% !important;
      font-family: 'Montserrat', sans-serif  !important;
     }
     
     
     .row_movile
     {
-        margin-right: -27px;
-        margin-left: -45px;
+        margin-right: -27px !important;
+        margin-left: -45px !important;
         margin-top: 35% !important;
     } 
 
     .row:after {
-        content: "";
-        display: table;
-        clear: both;
+        content: "" !important;
+        display: table !important;
+        clear: both !important;
       }
     
     .column {
-        float: left;
+        float: left !important;
         width: 50%;
         padding: 10px;
         height: 250px; /* Should be removed. Only for demonstration */
@@ -124,7 +124,7 @@
         border-radius: 35px;
         padding: 4px 27px;
         box-shadow: 0px 0px 66px -12px rgba(108,82,240,0.89);
-        font-weight: 300;
+        font-weight: 400;
     }
     
     /*Fin la sección 1 */
@@ -139,7 +139,7 @@
     .background_forms{
         
         
-        background-image: url("../../SVG/Recurso\ 3.svg"), url("../../SVG/Recurso\ 7.svg"), url("../../SVG/Recurso\ 4.svg"), url("../../SVG/Recurso\ 8.svg"), url("../../SVG/Recurso\ 16.svg");
+        background-image: url("../../SVG/Recurso\ 3.svg"), url("../../SVG/Recurso\ 7.svg"), url("../../SVG/Recurso\ 4.svg"), url("../../SVG/Recurso\ 8.svg"), url("../../SVG/Recurso\ 16.svg") !important;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat;
         background-position: 13% 7%, 40% 33%,67% 42%,0% 300%,19% 125%;
         background-size: 14%,10%,8%,20%,15%;
@@ -318,7 +318,7 @@
         background-color: white !important;
         background-image: url("../../SVG/Recurso\ 8.svg"), url("../../SVG/Recurso\ 16.svg"), url("../../SVG/Recurso\ 5.svg");
         background-repeat: no-repeat,no-repeat,no-repeat;
-        background-position: 0% -435%,19% -29%,75% 15%;
+        background-position: 0% -435%,19% -29%,75% 25%;
         background-size: 20%, 15%, 9%;
         height: 895px !important;
         width: auto;

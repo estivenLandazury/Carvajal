@@ -1,4 +1,4 @@
-@media(max-width:414px)
+@media only screen  and (max-width:414px) and (min-width:414px)
 {
 
 
@@ -333,7 +333,7 @@
         background-color: white !important;
         background-image: url("../../SVG/Recurso\ 8.svg"), url("../../SVG/Recurso\ 16.svg"), url("../../SVG/Recurso\ 5.svg");
         background-repeat: no-repeat,no-repeat,no-repeat;
-        background-position: 0% -435%,19% -29%,75% 15%;
+        background-position: 0% -435%,19% -29%,75% 25%;
         background-size: 20%, 15%, 9%;
         height: 936px !important;
         width: auto;
