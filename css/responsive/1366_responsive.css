@@ -227,9 +227,23 @@
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 800;
         top: 12%;
-        right: 26%;
+        right: 24%;
     }
     
+
+    .img_title
+    {
+        position: absolute;
+        font-size: 210%;
+        color: white !important;
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: 900;
+        top: 40% !important;
+        right: 31% !important;     
+    }
+
+
+
     .img_title1
     {
         position: absolute;
@@ -262,7 +276,7 @@
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 900;
         top: 40%;
-        right: 36% !important;
+        right: 36%;
     }
     
     .img_title4
