@@ -355,6 +355,18 @@
     
     
     }
+
+    .img_seccion3{
+
+
+        width: 35%;
+
+        align-self: center;
+        
+        margin-left: 29%;
+    }
+
+
     
     .paragraph_lastPhrase_seccion3{
         font-family: 'Montserrat', sans-serif  !important;
@@ -365,10 +377,10 @@
     
     .column_seccion3{
     
-        align-content: center;
-        float: left;
-        width: 54%;
-        margin-right: 51px;
+    align-content: center;
+    float: left;
+    width: 100%;
+    margin-right: 51px;
     
     }
     .row_seccion3
