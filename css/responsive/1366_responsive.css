@@ -137,10 +137,10 @@
     .background_forms{
         
         
-        background-image: url("../../SVG/Recurso\ 3.svg"), url("../../SVG/Recurso\ 7.svg"), url("../../SVG/Recurso\ 4.svg"), url("../../SVG/Recurso\ 8.svg"), url("../../SVG/Recurso\ 16.svg");
+        background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg);
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat;
-        background-position: 13% 7%, 40% 33%,67% 42%,0% 300%,19% 125%;
-        background-size: 14%,10%,8%,20%,15%;
+        background-position: 13% 7%, 40% 33%,67% 42%,0% 300%,19% 124%;
+        background-size: 14%,11%,8%,22%,15%;
     
     
     }
@@ -270,8 +270,8 @@
         background-color: white !important;
         background-image: url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg);
         background-repeat: no-repeat,no-repeat,no-repeat;
-        background-position: 0% -121%,19% -21%,75% 15%;
-        background-size: 20%, 15%, 9%;
+        background-position: -3.366% -121%,19% -21%,75% 15%;
+        background-size: 19%, 15%, 9%;
         height: 800px !important;
         width: auto;
         
