@@ -277,7 +277,7 @@
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 100;
         top: 55%;
-        right: 32%;
+        right: 27%;
     }
 
     .img_text2
@@ -288,7 +288,7 @@
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 100;
         top: 55%;
-        right: 38%;
+        right: 32%;
     }
     .img_text3
     {
@@ -298,8 +298,10 @@
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 100;
         top: 55%;
-        right: 42%;;
+        right: 36%;
+    
     }
+
     .img_text4
     {
         position: absolute;
@@ -308,7 +310,7 @@
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 100;
         top: 55%;
-        right: 32%;
+        right: 25%;
     }
     
     /*Fin la sección 2 */
@@ -319,7 +321,7 @@
         background-color: white !important;
         background-image: url("../../SVG/Recurso\ 8.svg"), url("../../SVG/Recurso\ 16.svg"), url("../../SVG/Recurso\ 5.svg");
         background-repeat: no-repeat,no-repeat,no-repeat;
-        background-position: 0% -435%,19% -29%,75% 15%;
+        background-position: 0% -491%,19% -29%,75% 15%;
         background-size: 20%, 15%, 9%;
         height: 800px !important;
         width: auto;
@@ -536,12 +538,12 @@
     {
         position: absolute;
         z-index: 4;
-        margin-left: 59%;
+        margin-left: 57%;
         font-size: 340%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
-        margin-top:-17%;
+        margin-top: -17%
     }
     
     
