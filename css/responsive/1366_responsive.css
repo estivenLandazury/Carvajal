@@ -1,12 +1,12 @@
-@media(max-width:1366px) and (min-width:1366px)
+@media only screen  and (min-width:1366px) and (max-width:1366)
 {
 
 
 
 
     .row_seccion1 {
-        margin-right: -210px;
-        margin-left: 43px;
+        margin-right: -210px !important;
+        margin-left: 43px !important;
     }
 
 
