@@ -1,4 +1,4 @@
-@media only screen and (max-width:375px) and (min-width:375px)
+@media only screen and (min-width:375px) and  (max-width:375px) 
 {
     .logo{
 
@@ -316,11 +316,17 @@
     .background_seccion3{
     
         background-color: white !important;
+
         background-image: url("../../SVG/Recurso\ 8.svg"), url("../../SVG/Recurso\ 16.svg"), url("../../SVG/Recurso\ 5.svg");
+        
         background-repeat: no-repeat,no-repeat,no-repeat;
+        
         background-position: 0% -435%,19% -29%,75% 25%;
+        
         background-size: 20%, 15%, 9%;
-        height: 895px !important;
+        
+        height: 875px !important;
+        
         width: auto;
     
     }
@@ -346,12 +352,23 @@
         margin-top: 4%;    
        
     }
+
+
+    .img_seccion3{
+
+
+        width: 35%;
+
+        align-self: center;
+        
+        margin-left: 29%;
+    }
     
     .column_seccion3{
     
         align-content: center;
         float: left;
-        width: 54%;
+        width: 100%;
         margin-right: 51px;
     
     }
@@ -367,12 +384,19 @@
     
     
     .title_seccion3{
-        font-family: 'Montserrat', sans-serif  !important;
+        font-family: 'Montserrat', sans-serif !important;
+
         color: #041160;
-        margin-top: 4%; 
+        
+        margin-top: 4%;
+        
         font-weight: 400;
+        
         letter-spacing: 2px;
+        
         font-size: 81%;
+        
+        margin-right: 10%;
     
     
     }
