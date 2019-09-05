@@ -253,6 +253,11 @@
         right: 31% !important;     
     }
 
+    .img_title_none
+    {
+        display:none;
+    }
+
     .img_text{
         font-size: 170%;
         color: white !important;
@@ -469,7 +474,7 @@
     }
     
     .button_form{
-        height: 8%;
+        height: 11%;
         font-size: 20px !important;
         background-color: #041160 !important;
         border: none !important;
