@@ -292,7 +292,7 @@
         background-color: white !important;
         background-image: url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg);
         background-repeat: no-repeat,no-repeat,no-repeat;
-        background-position: -3.211% -120%,19% -18%,75% 15%;
+        background-position: -3.211% -124%,19% -18%,75% 15%;
         background-size: 19%, 15%, 9%;
         height: 800px !important;
         width: auto;
@@ -387,7 +387,7 @@
     {
 
         float: left;
-        width: 41% !important;
+        width: 38.9% !important;
         padding: 10px;
         height: 800px;
     }
@@ -410,7 +410,7 @@
         position: relative;
         background-color: white;
         z-index: 2;
-        width: 380px;
+        width: 370px;
         height: 240px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
         margin-left: 10%;
@@ -423,11 +423,11 @@
         position: relative;
         background-color: white;
         z-index: 2;
-        width: 380px;
+        width: 370px;
         height: 240px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
         margin-top: 4%;
-        margin-left: 56%
+        margin-left: 58%;
     
     }
     
@@ -436,7 +436,7 @@
         position: relative;
         background-color: white;
         z-index: 2;
-        width: 380px;
+        width: 370px;
         height: 240px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
         margin-top: 3%;
@@ -448,11 +448,11 @@
         position: relative;
         background-color: white;
         z-index: 2;
-        width: 380px;
+        width: 370px;
         height: 240px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
         margin-top: -2%;
-        margin-left: 52%
+        margin-left: 56%;
     }
     
     .card_text
@@ -622,7 +622,7 @@
     .column_footer
     {
         float: left;
-        width: 80%;
+        width: 70%;
     
     }
     
