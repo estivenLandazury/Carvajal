@@ -23,12 +23,12 @@
     
     .navbar li {
     
-        padding: 0px 26px !important;
+        padding: 0px 12px !important;
     }
     .navbar li a{
     
         color: #041160 !important;
-        font-size: 23px !important;
+        font-size: 20px !important;
         text-shadow: 1px 0;
     
     }
@@ -145,9 +145,14 @@
         
         
         background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg);
+
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat;
-        background-position: 13% 7%, 40% 33%,67% 42%,-11% 293%,19% 124%;
-        background-size: 14%,11%,8%,21%,15%;
+        
+        background-position: 13% 7%, 34% 33%,72% 36%,-11% 190%,19% 118%;
+        
+        background-size: 13%,10%,8%,29%,17%;
+        
+        height: 860px !important;
     
     
     }
@@ -164,17 +169,33 @@
     }
 
 
+
     .solucion_subtitulo
     {
         font-size: 300% !important;
-        color: #041160; /* Temporal */ 
+
+        color: #041160;
+        
         font-weight: bolder;
+        
         text-shadow: 2px 0;
-        letter-spacing:1px;
-        margin-left:45%; 
+        
+        letter-spacing: 1px;
+        
         margin-top: 10%;
+
+        margin-left: 41%;
     
     }
+
+
+    .subtitulo_seccion3
+    {
+
+       margin-left:  35% !important
+    }
+
+
     
     .solucion_card {
         background-image: url("../imgNew/quees1-03.svg");
@@ -194,7 +215,7 @@
         align-content: center;
         float: left;
         width: 25%;
-        padding: 0 4px;
+        padding: 0 0px;
         position: relative;
       }
       
@@ -232,19 +253,25 @@
     
         border: none !important;
         border-radius: 25px;
-        height: 350px;
-        width: 350px;
-        margin-left: 8%;
+        height: 290px;
+        width: 280px;
+        margin-left: 0%;
     }
     
     .img_number
     {
         position: absolute;
-        font-size: 400%;
+
+        font-size: 300%;
+        
         color: white !important;
+        
         font-family: 'Montserrat', sans-serif !important;
+        
         font-weight: 800;
+        
         top: -113%;
+        
         right: 5%;
     }
     
@@ -252,9 +279,12 @@
     {
 
         position: absolute;
+
         align-content: center;
-        top: 35%;
-        right: 7%
+        
+        top: 39%;
+        
+        right: 9%;
     }
 
 
@@ -262,12 +292,17 @@
     .img_title
     {
         
-        font-size: 210%;
+        font-size: 200%;
+
         color: white !important;
+        
         font-family: 'Montserrat', sans-serif !important;
+        
         font-weight: 900;
+        
         top: 40% !important;
-        right: 31% !important;     
+        
+        right: 31% !important;
     }
 
     .img_title_none
@@ -276,9 +311,12 @@
     }
 
     .img_text{
-        font-size: 170%;
+        font-size: 160%;
+
         color: white !important;
+        
         font-family: 'Montserrat', sans-serif !important;
+        
         font-weight: 100;
     }
 
@@ -290,11 +328,17 @@
     .background_seccion3{
     
         background-color: white !important;
+
         background-image: url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg);
+        
         background-repeat: no-repeat,no-repeat,no-repeat;
-        background-position: -3.211% -120%,19% -18%,75% 15%;
-        background-size: 19%, 15%, 9%;
-        height: 800px !important;
+        
+        background-position: -1.211% -117%,19% -21%,86% 7%;
+        
+        background-size: 18%, 17%, 9%;
+        
+        height: 654px !important;
+        
         width: auto;
         
     }
@@ -327,22 +371,33 @@
     .row_seccion3
     {
         padding-top: 5%;
+
         align-content: center;
-        width: 94%;
-        padding-left: 18%;
+        
+        width: 100%;
+        
+        padding-left: 8%;
     
     }
     
     
     .title_seccion3{
-        font-family: 'Montserrat', sans-serif  !important;
+        font-family: 'Montserrat', sans-serif !important;
         color: #041160;
-        margin-top: 4%; 
+        margin-top: 4%;
         font-weight: 400;
         letter-spacing: 2px;
-    
+        font-size: 20px;
     
     }
+    .img_seccion3
+    {
+        width: 80%;
+
+    margin-left: 9%;
+    }
+    
+    
     
     /*Fin seccion3*/
     
@@ -351,11 +406,17 @@
     .background_seccion4{
     
         background-color: white !important;
+
         background-image: url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg);
+        
         background-repeat: no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
+        
         background-position: 0% 50%, 115% 20%,30% 5%,65% 100%,90% 100%;
-        background-size: 45%,28%,10%,10%,10%;
-        height: 1000px !important;
+        
+        background-size: 40%,28%,10%,10%,10%;
+        
+        height: 900px !important;
+        
         width: 107% !important;
     
     }
@@ -373,12 +434,17 @@
 
     .title_seccion4
     {
-            font-family: 'Montserrat', sans-serif !important;
-            font-size: 262% !important;
-            color: white;
-            font-weight: 300;
-            margin-top: 80%;
-            margin-left: 15%;
+        font-family: 'Montserrat', sans-serif !important;
+
+        font-size: 233% !important;
+        
+        color: white;
+        
+        font-weight: 300;
+        
+        margin-top: 88%;
+        
+        margin-left: 6%;
     
     
     }
@@ -399,8 +465,9 @@
 
     .cards_column{
 
-        margin-top: 14% !important;
-        margin-left: -2%;
+        margin-top: 17% !important;
+
+        margin-left: -6%;
     
     }
  
@@ -408,12 +475,19 @@
     .card_number1
     {
         position: relative;
+
         background-color: white;
+        
         z-index: 2;
-        width: 380px;
-        height: 240px;
+        
+        width: 300px;
+        
+        height: 200px;
+        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
+        
         margin-left: 10%;
+        
         margin-top: 6%;
         
     }
@@ -421,49 +495,77 @@
     .card_number2
     {
         position: relative;
+
         background-color: white;
+        
         z-index: 2;
-        width: 380px;
-        height: 240px;
+        
+        width: 300px;
+        
+        height: 200px;
+        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
+        
         margin-top: 4%;
-        margin-left: 56%
+        
+        margin-left: 50%;
     
     }
     
     .card_number3
     {
         position: relative;
+
         background-color: white;
+        
         z-index: 2;
-        width: 380px;
-        height: 240px;
+        
+        width: 300px;
+        
+        height: 200px;
+        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
+        
         margin-top: 3%;
+        
         margin-left: 6%;
     }
     
     .card_number4
     {
         position: relative;
+
         background-color: white;
+        
         z-index: 2;
-        width: 380px;
-        height: 240px;
+        
+        width: 300px;
+        
+        height: 200px;
+        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
+        
         margin-top: -2%;
-        margin-left: 52%
+        
+        margin-left: 48%;
     }
     
     .card_text
     {
         margin-top: 6%;
+
         margin-left: 6px;
+        
         color: #526775;
-        font-size: 129%;
+        
+        font-size: 103%;
+        
         font-family: 'Montserrat', sans-serif !important;
+        
         padding-top: 15%;
+        
         margin-left: 9%;
+        
         font-weight: 300;
     }
     
@@ -484,13 +586,21 @@
     .form_text
     {
         font-family: 'Montserrat', sans-serif !important;
+
         color: #041160;
+        
         margin-top: 4%;
+        
         font-weight: 500;
-        font-size: 320%;
+        
+        font-size: 250%;
+        
         position: absolute;
+        
         z-index: 4;
+        
         margin-left: 22%;
+        
         margin-top: -9%;
     
     }
@@ -498,29 +608,49 @@
     .form_tittle
     {
         font-family: 'Montserrat', sans-serif !important;
+
         color: #041160;
+        
         font-weight: 500;
-        font-size: 260%;
+        
+        font-size: 200%;
+        
         position: absolute;
+        
         z-index: 4;
+        
         margin-left: 56%;
+        
         margin-top: -35%;
     }
     
     .button_form{
         height: 11%;
+
         font-size: 20px !important;
+        
         background-color: #041160 !important;
+        
         border: none !important;
+        
         color: white !important;
+        
         text-decoration: none !important;
-        margin: -8% 65% !important;
+        
+        margin: -8% 61% !important;
+        
         cursor: pointer !important;
+        
         border-radius: 35px;
+        
         padding: 1px 70px;
+        
         box-shadow: 0px 0px 66px -12px rgba(108,82,240,0.89);
+        
         text-shadow: 1px 0;
+        
         position: absolute;
+        
         z-index: 4;
     
     }
@@ -529,13 +659,21 @@
     .cellphone_form
     {
         position: absolute;
+
         z-index: 4;
+        
         margin-left: 57%;
-        font-size: 283%;
+        
+        font-size: 223%;
+        
         text-align: center;
+        
         border: none;
+    
+        
         border-bottom: 4px solid #041160;
-        margin-top: -21%
+        
+        margin-top: -21%;
     }
     
     
@@ -609,12 +747,14 @@
     
     
     .image_test {
-        width: 1300px;
+        width: 1000px;
         height: 900px;
-        margin-top: -53%;
-        margin-left: 2%;
+        margin-top: -66%;
+        margin-left: 3%;
         z-index: 2;
         position: absolute;
+    
+    
     }
     
     
@@ -622,7 +762,8 @@
     .column_footer
     {
         float: left;
-        width: 80%;
+
+        width: 70%;
     
     }
     
@@ -693,10 +834,13 @@
     .rigth_cotainer_list
     {
     
-      font-size: 200%;
-      font-weight: 300;
-      margin-top: 10%;
-      letter-spacing: 1px;
+        font-size: 200%;
+
+        font-weight: 300;
+        
+        margin-top: 18%;
+        
+        letter-spacing: 1px;
     
     }
     
