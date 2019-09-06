@@ -244,7 +244,10 @@
         top: 40% !important;
         right: 31% !important;     
       }
-  
+      .img_title_none
+    {
+        display:none;
+    }
       .img_text{
         font-size: 221%;
         color: white !important;
