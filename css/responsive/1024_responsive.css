@@ -1,11 +1,10 @@
-@media only screen  and (max-width:1280px) and (min-width:1280px)
+@media only screen  and (max-width:1024px) and (min-width:1024px)
 {
 
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
-        width: 72%;
+        width: 70%;
         margin-top: 9px;
-    
     }
     
     .logo{
@@ -204,7 +203,8 @@
 
 
 
-        margin-right: 4%;
+        margin: 0 -1px;
+        margin-right: 0%;
 
       }
       
