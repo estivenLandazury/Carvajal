@@ -2,14 +2,14 @@
 {
     .logo{
 
-        width:  100% !important;
-        height: 100% !important;
-        padding-left: 5% !important;
+        width: 38% !important;
         
+        padding-left: 5% !important;
     }
 
     .movileGroupButtonNavbar{
-        margin-top: 46px !important;
+        margin-top: 45px !important;
+        margin-right: 14%;
     }
     
     .navbar{
@@ -58,7 +58,7 @@
 
         margin-right: -15px;
         margin-left: -45px;
-        margin-top: 35% !important;
+        margin-top: 28% !important;
     } 
 
     .row:after {
@@ -86,9 +86,7 @@
     {
         font-size: 144% !important;
         color: #4AC3E9;
-        font-weight: 400;
-        text-shadow: 2px 0;
-        letter-spacing: 1px;
+        font-weight: 600;
     
     }
     
@@ -151,8 +149,8 @@
             
         font-size: 109% !important;
         color: #338BFF;
-        font-weight: 400;
-        text-shadow: 1px 0;
+        font-weight: 600;
+        /* text-shadow: 1px 0; */
         letter-spacing: 4px;
         margin-left: 10%;
         margin-top: 10%;
@@ -161,9 +159,9 @@
     {
         font-size: 150% !important;
         color: #041160;
-        font-weight: 400;
-        text-shadow: 2px 0;
-        letter-spacing: 1px;
+        font-weight: 600;
+        /* text-shadow: 2px 0; */
+        /* letter-spacing: 1px; */
         margin-left: 25%;
         margin-top: 10%;
     
@@ -328,37 +326,28 @@
     .row_seccion3
     {
         padding-top: 5%;
-
         align-content: center;
-        
         width: 77%;
-        
-        padding-left: 27%;
+        margin-left: 26%;
     
     }
     
     
     .title_seccion3{
         font-family: 'Montserrat', sans-serif !important;
-
         color: #041160;
-        
         margin-top: 4%;
-        
         font-weight: 400;
-        
         letter-spacing: 2px;
-        
         font-size: 81%;
-        
-        margin-left: 6%;
+        margin-left: -13%;
     
     
     }
     
     .img_seccion3
     {
-        width: 123%;
+        width: 84%;
     }
     /*Fin seccion3*/
     
