@@ -6,6 +6,10 @@
 }
 */
 
+
+@media only screen  and (max-width:2048px) and (min-width:2048px)
+{
+
 /*Comienza navbar */
 .logo{
 
@@ -220,103 +224,60 @@
     width: 400px;
 }
 
-.img_number
-{
-    position: absolute;
-    font-size: 500%;
-    color: white!important; 
-    font-family: 'Montserrat', sans-serif  !important;
-    font-weight: 900;
-    top:12%;
-    right: 32%;
-}
+    .img_number
+      {
+        position: absolute;
 
-.img_title1
-{
-    position: absolute;
-    font-size: 250%;
-    color: white!important; 
-    font-family: 'Montserrat', sans-serif  !important;
-    font-weight: 900;
-    top:40%;
-    right:40%;
-}
+        font-size: 500%;
+        
+        color: white !important;
+        
+        font-family: 'Montserrat', sans-serif !important;
+        
+        font-weight: 800;
+        
+        top: -118%;
+        
+        right: -3%;
+      }
+      
+      .img_container
+      {
+  
+        position: absolute;
 
-.img_title2
-{
-    position: absolute;
-    font-size: 250%;
-    color: white!important; 
-    font-family: 'Montserrat', sans-serif  !important;
-    font-weight: 900;
-    top:40%;
-    right:40%;
-}
+        align-content: center;
+        
+        top: 41%;
+        
+        right: 31%
+      }
+  
+  
+  
+      .img_title
+      {
+          
+        font-size: 275%;
+        color: white !important;
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: 900;
+        top: 40% !important;
+        right: 31% !important;     
+      }
 
-.img_title3
-{
-    position: absolute;
-    font-size: 250%;
-    color: white!important; 
-    font-family: 'Montserrat', sans-serif  !important;
-    font-weight: 900;
-    top:40%;
-    right:40%;
-}
-
-.img_title4
-{
-    position: absolute;
-    font-size: 250%;
-    color: white!important; 
-    font-family: 'Montserrat', sans-serif  !important;
-    font-weight: 900;
-    top:40%;
-    right:40%;
-}
+      .img_title_none
+      {
+          display:none;
+      }
 
 
-.img_text1
-{
-    position: absolute;
-    font-size: 190%;
-    color: white!important;
-    font-family: 'Montserrat', sans-serif !important;
-    font-weight: 100;
-    top: 55%;
-    right: 38%;
-}
-
-.img_text2
-{
-    position: absolute;
-    font-size: 190%;
-    color: white!important;
-    font-family: 'Montserrat', sans-serif !important;
-    font-weight: 100;
-    top: 55%;
-    right: 44%;
-}
-.img_text3
-{
-    position: absolute;
-    font-size: 190%;
-    color: white!important;
-    font-family: 'Montserrat', sans-serif !important;
-    font-weight: 100;
-    top: 55%;
-    right: 47%;
-}
-.img_text4
-{
-    position: absolute;
-    font-size: 190%;
-    color: white!important;
-    font-family: 'Montserrat', sans-serif !important;
-    font-weight: 100;
-    top: 55%;
-    right: 38%;
-}
+      .img_text{
+        font-size: 221%;
+        color: white !important;
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: 100;
+      }
 /*Fin la sección 2 */
 
 /*Inicio sección 3*/
@@ -324,11 +285,13 @@
 
     background-color: white !important;
     background-image: url("../SVG/Recurso\ 8.svg"), url("../SVG/Recurso\ 16.svg"), url("../SVG/Recurso\ 5.svg");
-    background-repeat:no-repeat,no-repeat,no-repeat;
-    background-position: 0% -600%,19% -30%,80% 15%; /* x - y*/
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: 0% -587%,19% -30%,80% 15%;
     background-size: 20%, 15%, 10%;
     height: 1000px !important;
     width: auto;
+
+
 
 }
 
@@ -517,19 +480,32 @@ FORM
 }
 
 .button_form{
-    height: 6%;
-    font-size: 20px ! important;
+    height: 12%;
+
+    font-size: 31px !important;
+    
     background-color: #041160 !important;
-    border: none!important;
-    color: white!important;
-    text-decoration: none!important;
-    margin: 10% 61%!important;
-    cursor: pointer!important;
+    
+    border: none !important;
+    
+    color: white !important;
+    
+    text-decoration: none !important;
+    
+    margin: 10% 61% !important;
+    
+    cursor: pointer !important;
+    
     border-radius: 35px;
+    
     padding: 1px 70px;
+    
     box-shadow: 0px 0px 66px -12px rgba(108,82,240,0.89);
+    
     text-shadow: 1px 0;
+    
     position: absolute;
+    
     z-index: 4;
 
 }
@@ -579,7 +555,7 @@ FORM
 
 .background_seccion5
 {
-    min-height:600px;
+    min-height:200px !important;
     background: white
 
 
@@ -703,9 +679,11 @@ FORM
 
 .img_footer
 {
-    width: 4%;
+    width: 1%;
+
     height: 4%;
-    display: inline;
+    
+    display: inline
 }
 
 
@@ -723,9 +701,13 @@ FORM
     margin-left: 2%;
 }
 
+.horizontal-footer
+{
+    width: 100%;
+}
 
 /*Fin de seccion 5*/
 
-
+}
 
 
