@@ -904,11 +904,17 @@
 
     .row_footer{
 
-        margin-top:10%;
+        margin-top: 26%;
+
     }
 
     .horizontal-footer
     {
         width: 100%;
+    }
+
+    .contacto_container
+    {
+        height: 300px !important;
     }
 }

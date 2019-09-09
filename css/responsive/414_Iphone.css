@@ -802,5 +802,8 @@
     }
 
 
-    
+    .row_footer
+    {
+        margin-top: 16%;
+    }
 }

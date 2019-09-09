@@ -764,6 +764,7 @@
         float: left;
 
         width: 70%;
+        margin-top: 16%;
     
     }
     
@@ -783,6 +784,7 @@
         color: white;
         font-family: 'Montserrat', sans-serif  !important;
         font-weight: 300;
+        margin-top: 16%
     
     
     }
@@ -838,7 +840,7 @@
 
         font-weight: 300;
         
-        margin-top: 18%;
+        margin-top:22%;
         
         letter-spacing: 1px;
     
@@ -871,5 +873,8 @@
         margin-top:10%;
     }
     
-    
+    .contacto_container
+    {
+        height: 430px !important;
+    }
 }

@@ -752,4 +752,10 @@
 
         width: 100%;
     }
+
+
+    .row_footer
+    {
+        margin-top: 16%;
+    }
 }

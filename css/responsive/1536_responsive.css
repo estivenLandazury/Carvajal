@@ -628,7 +628,7 @@
     {
     
     
-        margin-top: -10%; 
+        margin-top: 16%;
         margin-left: 9%;
     }
     
@@ -678,7 +678,7 @@
     {
     
     
-        margin-top: -37%;
+        margin-top: 63%;
         margin-right: 9%;
         font-size: 70%;
     }
@@ -691,10 +691,10 @@
     .rigth_cotainer_list
     {
     
-      font-size: 200%;
-      font-weight: 300;
-      margin-top: 10%;
-      letter-spacing: 1px;
+        font-size: 200%;
+        font-weight: 300;
+        margin-top: 15%;
+        letter-spacing: 1px;
     
     }
     
@@ -732,5 +732,11 @@
     .horizontal-footer
     {
         width:100%;
+    }
+
+    .contacto_container
+    {
+        height: 330px !important;
+
     }
 }

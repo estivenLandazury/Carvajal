@@ -637,6 +637,7 @@
     {
         float: left;
         width: 80%;
+        margin-top: 19%;
     
     }
     
@@ -654,8 +655,9 @@
         float: left;
         width: 20%;
         color: white;
-        font-family: 'Montserrat', sans-serif  !important;
+        font-family: 'Montserrat', sans-serif !important;
         font-weight: 300;
+        margin-top: 19%;
     
     
     }
@@ -707,10 +709,11 @@
     .rigth_cotainer_list
     {
     
-      font-size: 200%;
-      font-weight: 300;
-      margin-top: 10%;
-      letter-spacing: 1px;
+        font-size: 200%;
+        font-weight: 300;
+        margin-top: 16%;
+        letter-spacing: 1px;
+    
     
     }
     
@@ -747,5 +750,10 @@
     {
 
         width: 100% !important;
+    }
+
+    .contacto_container
+    {
+        height: 388px !important;
     }
 }

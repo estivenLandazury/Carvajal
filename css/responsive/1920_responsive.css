@@ -663,8 +663,7 @@
     .left_container
     {
     
-    
-        margin-top: -10%; 
+        margin-top: 12%;
         margin-left: 9%;
     }
     
@@ -674,8 +673,9 @@
         float: left;
         width: 20%;
         color: white;
-        font-family: 'Montserrat', sans-serif  !important;
+        font-family: 'Montserrat', sans-serif !important;
         font-weight: 300;
+        margin-top: 16%;
     
     
     }
@@ -768,5 +768,13 @@
     .horizontal-footer
     {
         width:100%;
+    }
+
+
+
+
+    .contacto_container{
+
+        height: 300px;
     }
 }
