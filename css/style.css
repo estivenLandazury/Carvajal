@@ -708,6 +708,10 @@ FORM
 
 /*Fin de seccion 5*/
 
+.contacto_container
+{
+    height: 500px !important ;
+}
 }
 
 
