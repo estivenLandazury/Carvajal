@@ -481,22 +481,14 @@
     .form_text
     {
         font-family: 'Montserrat', sans-serif !important;
-
         color: #041160;
-        
         margin-top: 4%;
-        
         font-weight: 500;
-        
         font-size: 138%;
-        
         position: absolute;
-        
         z-index: 4;
-        
         margin-left: 13%;
-        
-        margin-top: -58%;
+        margin-top: -47%;
     
     }
     
