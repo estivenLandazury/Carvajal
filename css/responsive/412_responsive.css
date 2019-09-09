@@ -581,14 +581,14 @@
     {
         position: absolute;
         z-index: 4;
-        margin-left: 22%;
+        margin-left: 15%;
         font-size: 119%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
-        margin-top: -43%;
+        margin-top: -48%;
         align-self: center;
-        width: 59%;
+        width: 300px;
     
     
     }
@@ -599,6 +599,30 @@
         letter-spacing: 2px;
         color: gray;
     
+    }
+
+    
+
+    .name_form
+    {
+        position: absolute;
+        z-index: 4;
+        margin-left: 16%;
+        font-size: 119%;
+        width: 300px;
+        margin-top: -39%;
+        text-align: center;
+        border: none;
+        border-bottom: 4px solid #041160;
+    }
+
+
+    .name_form::placeholder
+    {
+        letter-spacing: 2px;
+        color: gray;
+        font-size:70%;
+
     }
     
     .country_list
@@ -805,5 +829,30 @@
     .row_footer
     {
         margin-top: 16%;
+    }
+
+
+
+    .articulo_link
+    {
+        font-family: 'Montserrat', sans-serif !important;
+        margin-left: 26%;
+        color: #041160;
+        font-size: 80%;
+        font-weight: 500;
+        text-decoration: none!important; 
+    
+    }
+
+
+    .articulo_link
+    {
+        font-family: 'Montserrat', sans-serif !important;
+        margin-left: 26%;
+        color: #041160;
+        font-size: 80%;
+        font-weight: 500;
+        text-decoration: none!important; 
+    
     }
 }

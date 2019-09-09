@@ -608,21 +608,16 @@
     .form_tittle
     {
         font-family: 'Montserrat', sans-serif !important;
-
         color: #041160;
-        
         font-weight: 500;
-        
         font-size: 200%;
-        
         position: absolute;
-        
         z-index: 4;
-        
         margin-left: 56%;
-        
-        margin-top: -35%;
+        margin-top: -42%;
     }
+
+
     
     .button_form{
         height: 11%;
@@ -637,7 +632,7 @@
         
         text-decoration: none !important;
         
-        margin: -8% 61% !important;
+        margin: -8% 65% !important;
         
         cursor: pointer !important;
         
@@ -664,8 +659,8 @@
         
         margin-left: 57%;
         
-        font-size: 223%;
-        
+        font-size: 200%;
+        width: 400px;
         text-align: center;
         
         border: none;
@@ -682,6 +677,51 @@
         letter-spacing: 2px;
         color: gray;
     
+    }
+
+
+    .cellphone_form
+    {
+        position: absolute;
+        z-index: 4;
+        margin-left: 61%;
+        width: 350px;
+        font-size: 200%;
+        text-align: center;
+        border: none;
+        border-bottom: 4px solid #041160;
+        margin-top: -29%;
+    }
+    
+    
+    .cellphone_form::placeholder
+    {
+        letter-spacing: 2px;
+        color: gray;
+    
+    }
+
+
+    .name_form
+    {
+        position: absolute;
+        z-index: 4;
+        margin-left: 61%;
+        font-size: 200%;
+        width: 350px;
+        margin-top: -20%;
+        text-align: center;
+        border: none;
+        border-bottom: 4px solid #041160;
+    }
+
+
+    .name_form::placeholder
+    {
+        letter-spacing: 2px;
+        color: gray;
+        font-size:50%;
+
     }
     
     .country_list
@@ -747,7 +787,7 @@
     
     
     .image_test {
-        width: 1000px;
+        width: 1060px;
         height: 900px;
         margin-top: -66%;
         margin-left: 3%;
@@ -876,5 +916,18 @@
     .contacto_container
     {
         height: 430px !important;
+    }
+
+
+
+    .articulo_link
+    {
+        font-family: 'Montserrat', sans-serif !important;
+        margin-left: 28%;
+        color: #041160;
+        font-size: 103%;
+        font-weight: 500;
+        text-decoration: none!important; 
+    
     }
 }

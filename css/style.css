@@ -428,7 +428,7 @@
 
 .card_text
 {
-    margin-top: 6%;
+    margin-top: 4%;
     margin-left: 6px;
     color: #526775;
     font-size: 150%;
@@ -515,8 +515,10 @@ FORM
 {
     position: absolute;
     z-index: 4;
-    margin-left: 57%;
-    font-size: 360%;
+    margin-left: 59%;
+    font-size: 200%;
+    margin-top: -3%;
+    width: 400px;
     text-align: center;
     border: none;
     border-bottom: 4px solid #041160;
@@ -527,6 +529,29 @@ FORM
 {
     letter-spacing: 2px;
     color: gray;
+
+}
+
+
+.name_form
+{
+    position: absolute;
+    z-index: 4;
+    margin-left: 59%;
+    font-size: 200%;
+    width: 400px;
+    margin-top: 2%;
+    text-align: center;
+    border: none;
+    border-bottom: 4px solid #041160;
+}
+
+
+.name_form::placeholder
+{
+    letter-spacing: 2px;
+    color: gray;
+    font-size:50%;
 
 }
 
@@ -712,6 +737,21 @@ FORM
 {
     height: 500px !important ;
 }
+
+
+
+.articulo_link
+{
+    font-family: 'Montserrat', sans-serif !important;
+    margin-left: 28%;
+    color: #041160;
+    font-size: 150%;
+    font-weight: 500;
+    text-decoration: none!important; 
+
+}
+
+
 
 }
 

@@ -521,31 +521,18 @@
     
     .button_form{
         height: 7%;
-
         font-size: 14px !important;
-        
         background-color: #041160 !important;
-        
         border: none !important;
-        
         color: white !important;
-        
         text-decoration: none !important;
-        
-        margin: -37% 25% !important;
-        
+        margin: -28% 25% !important;
         cursor: pointer !important;
-        
         border-radius: 35px;
-        
         padding: 1px 42px;
-        
         box-shadow: 0px 0px 66px -12px rgba(108,82,240,0.89);
-        
         text-shadow: 1px 0;
-        
         position: absolute;
-        
         z-index: 4;
     }
     
@@ -553,28 +540,48 @@
     .cellphone_form
     {
         position: absolute;
-
         z-index: 4;
-        
-        margin-left: 27%;
-        
+        margin-left: 19%;
         font-size: 100%;
-        
         text-align: center;
-        
         border: none;
-        
         border-bottom: 4px solid #041160;
-        
         margin-top: -70%;
+        width: 220px;
     }
     
+
+
     
     .cellphone_form::placeholder
     {
         letter-spacing: 2px;
         color: gray;
     
+    }
+
+
+
+    .name_form
+    {
+        position: absolute;
+        z-index: 4;
+        margin-left: 19%;
+        font-size: 100%;
+        width: 220px;
+        margin-top: -60%;
+        text-align: center;
+        border: none;
+        border-bottom: 4px solid #041160;
+    }
+
+
+    .name_form::placeholder
+    {
+        letter-spacing: 2px;
+        color: gray;
+        font-size:70%;
+
     }
     
     .country_list
@@ -774,5 +781,17 @@
     .row_footer
     {
         margin-top: 16%;
+    }
+
+
+    .articulo_link
+    {
+        font-family: 'Montserrat', sans-serif !important;
+        margin-left: 26%;
+        color: #041160;
+        font-size: 80%;
+        font-weight: 500;
+        text-decoration: none!important; 
+    
     }
 }
