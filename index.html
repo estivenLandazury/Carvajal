@@ -81,6 +81,7 @@
         </nav>
     </header>
 
+    
     <section id="home" class="">
         <div class="carosal-area">
             <!--<img src="img/Prescriptiva/Header%20BG-04.jpg" class="responsive"> -->
@@ -362,7 +363,7 @@
        
         <form id="Contact_form">
             
-            <input  class="cellphone_form"type="text" id="number" name="number" placeholder="000-000-0000">
+            <input  class="cellphone_form"type="text" id="number" name="number" placeholder="000-000-0000" onkeypress='validate(event)'>
             </input>
             <input  class="name_form" type="text" id="name" name="name" placeholder="¿De donde nos contactas?">
             </input>
@@ -536,6 +537,25 @@
 
 -->
 
+    <script>
+    function validate(evt) {
+    var theEvent = evt || window.event;
+
+    // Handle paste
+    if (theEvent.type === 'paste') {
+        key = event.clipboardData.getData('text/plain');
+    } else {
+    // Handle key press
+        var key = theEvent.keyCode || theEvent.which;
+        key = String.fromCharCode(key);
+    }
+    var regex = /[0-9]|\./;
+    if( !regex.test(key) ) {
+        theEvent.returnValue = false;
+        if(theEvent.preventDefault) theEvent.preventDefault();
+    }
+    }
+    </script>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/animationCounter.js"></script>
     <script src="js/bootstrap.min.js"></script>
