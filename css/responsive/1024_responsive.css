@@ -1,9 +1,16 @@
-@media only screen  and (max-width:1024px) and (min-width:1024px)
+@media only screen  and (max-width:1124px) and (min-width:1024px)
 {
 
 
+    body{
+        background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg) !important;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
+        background-position: 10% 19%, 38% 26%,71% 25%,0% 31%,19% 37%,79% 38%,0% 68%, 113% 65%,35% 56%,64% 76%,88% 75%;
+        background-size: 14%,10%,10%,20%,15%,10%,45%,28%,10%,10%,10%;
+    }
+
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
-        width: 70%;
+        width: 66%;
         margin-top: 9px;
     }
     
@@ -23,12 +30,12 @@
     
     .navbar li {
     
-        padding: 0px 12px !important;
+        padding: 0 2% !important;
     }
     .navbar li a{
     
         color: #041160 !important;
-        font-size: 20px !important;
+        font-size: 18px !important;
         text-shadow: 1px 0;
     
     }
@@ -143,7 +150,7 @@
     
     .background_forms{
         
-        
+        /*
         background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg);
 
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat;
@@ -151,7 +158,7 @@
         background-position: 13% 7%, 34% 33%,72% 36%,-11% 190%,19% 118%;
         
         background-size: 13%,10%,8%,29%,17%;
-        
+        */
         height: 860px !important;
     
     
@@ -261,30 +268,22 @@
     .img_number
     {
         position: absolute;
-
         font-size: 300%;
-        
         color: white !important;
-        
         font-family: 'Montserrat', sans-serif !important;
-        
         font-weight: 800;
-        
         top: -113%;
-        
         right: 5%;
+        left: 90%;
     }
     
     .img_container
     {
-
         position: absolute;
-
         align-content: center;
-        
         top: 39%;
-        
-        right: 9%;
+        margin-right: 15%;
+        margin-left: 18%;
     }
 
 
@@ -311,12 +310,9 @@
     }
 
     .img_text{
-        font-size: 160%;
-
+        font-size: 130%;
         color: white !important;
-        
         font-family: 'Montserrat', sans-serif !important;
-        
         font-weight: 100;
     }
 
@@ -327,6 +323,7 @@
     /*Inicio sección 3*/
     .background_seccion3{
     
+        /*
         background-color: white !important;
 
         background-image: url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg);
@@ -336,7 +333,7 @@
         background-position: -1.211% -117%,19% -21%,86% 7%;
         
         background-size: 18%, 17%, 9%;
-        
+        */
         height: 654px !important;
         
         width: auto;
@@ -405,6 +402,7 @@
     
     .background_seccion4{
     
+        /*
         background-color: white !important;
 
         background-image: url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg);
@@ -414,10 +412,12 @@
         background-position: 0% 50%, 115% 20%,30% 5%,65% 100%,90% 100%;
         
         background-size: 40%,28%,10%,10%,10%;
+         width: 107% !important;
+        */
+        height: 850px !important
+
         
-        height: 900px !important;
-        
-        width: 107% !important;
+       
     
     }
     
@@ -436,7 +436,7 @@
     {
         font-family: 'Montserrat', sans-serif !important;
 
-        font-size: 233% !important;
+        font-size: 218% !important ;
         
         color: white;
         
@@ -480,7 +480,7 @@
         
         z-index: 2;
         
-        width: 300px;
+        width: 164%;
         
         height: 200px;
         
@@ -495,20 +495,13 @@
     .card_number2
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
-        width: 300px;
-        
+        width: 144%;
         height: 200px;
-        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
         margin-top: 4%;
-        
-        margin-left: 50%;
+        margin-left: 55%;
     
     }
     
@@ -520,7 +513,7 @@
         
         z-index: 2;
         
-        width: 300px;
+        width: 164%;
         
         height: 200px;
         
@@ -534,20 +527,13 @@
     .card_number4
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
-        width: 300px;
-        
+        width: 147%;
         height: 200px;
-        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
         margin-top: -2%;
-        
-        margin-left: 48%;
+        margin-left: 52%;
     }
     
     .card_text
@@ -586,22 +572,14 @@
     .form_text
     {
         font-family: 'Montserrat', sans-serif !important;
-
         color: #041160;
-        
         margin-top: 4%;
-        
         font-weight: 500;
-        
         font-size: 250%;
-        
         position: absolute;
-        
         z-index: 4;
-        
-        margin-left: 22%;
-        
-        margin-top: -9%;
+        margin-left: 16%;
+        margin-top: -5%
     
     }
     
@@ -613,39 +591,26 @@
         font-size: 200%;
         position: absolute;
         z-index: 4;
-        margin-left: 56%;
-        margin-top: -42%;
+        margin-left: 57%;
+        margin-top: -41%;
     }
 
 
     
     .button_form{
-        height: 11%;
-
+        height: 6%;
         font-size: 20px !important;
-        
         background-color: #041160 !important;
-        
         border: none !important;
-        
         color: white !important;
-        
         text-decoration: none !important;
-        
-        margin: -8% 65% !important;
-        
+        margin: -5% 65% !important;
         cursor: pointer !important;
-        
         border-radius: 35px;
-        
         padding: 1px 70px;
-        
         box-shadow: 0px 0px 66px -12px rgba(108,82,240,0.89);
-        
         text-shadow: 1px 0;
-        
         position: absolute;
-        
         z-index: 4;
     
     }
@@ -654,21 +619,14 @@
     .cellphone_form
     {
         position: absolute;
-
         z-index: 4;
-        
-        margin-left: 57%;
-        
+        margin-left: 61%;
+        width: 350px;
         font-size: 200%;
-        width: 400px;
         text-align: center;
-        
         border: none;
-    
-        
         border-bottom: 4px solid #041160;
-        
-        margin-top: -21%;
+        margin-top: -26%;
     }
     
     
@@ -684,13 +642,13 @@
     {
         position: absolute;
         z-index: 4;
-        margin-left: 61%;
+        margin-left: 60%;
         width: 350px;
         font-size: 200%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
-        margin-top: -29%;
+        margin-top: -27%;
     }
     
     
@@ -706,10 +664,10 @@
     {
         position: absolute;
         z-index: 4;
-        margin-left: 61%;
+        margin-left: 60%;
         font-size: 200%;
         width: 350px;
-        margin-top: -20%;
+        margin-top: -19%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
@@ -750,7 +708,6 @@
     .background_seccion5
     {
         max-height: 400px !important;
-        background: white;
         min-height: 300px !important;
         
     }
@@ -787,10 +744,10 @@
     
     
     .image_test {
-        width: 1060px;
-        height: 900px;
-        margin-top: -66%;
-        margin-left: 3%;
+        width: 109%;
+        height: 1000px;
+        margin-top: -64%;
+        margin-left: -2%;
         z-index: 2;
         position: absolute;
     
@@ -802,9 +759,8 @@
     .column_footer
     {
         float: left;
-
         width: 70%;
-        margin-top: 16%;
+        margin-top: 24%;
     
     }
     
@@ -822,9 +778,9 @@
         float: left;
         width: 20%;
         color: white;
-        font-family: 'Montserrat', sans-serif  !important;
+        font-family: 'Montserrat', sans-serif !important;
         font-weight: 300;
-        margin-top: 16%
+        margin-top: 25%;
     
     
     }
@@ -915,7 +871,7 @@
     
     .contacto_container
     {
-        height: 430px !important;
+        height: 465px !important
     }
 
 

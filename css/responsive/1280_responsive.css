@@ -1,6 +1,11 @@
-@media only screen  and (max-width:1280px) and (min-width:1280px)
+@media only screen  and (max-width:1365px) and (min-width:1280px) /*1125-*/
 {
-
+    body{
+        background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg) !important;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
+        background-position: 10% 19%, 38% 26%,71% 25%,0% 31%,19% 37%,79% 38%,0% 68%, 113% 65%,35% 56%,64% 76%,88% 75%;
+        background-size: 14%,10%,10%,20%,15%,10%,45%,28%,10%,10%,10%;
+    }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
         width: 72%;
@@ -144,12 +149,12 @@
     
     .background_forms{
         
-        
+        /*
         background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg);
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat;
         background-position: 13% 7%, 40% 33%,67% 42%,-11% 293%,19% 124%;
         background-size: 14%,11%,8%,21%,15%;
-    
+        */
     
     }
     
@@ -288,12 +293,13 @@
     
     /*Inicio sección 3*/
     .background_seccion3{
-    
+        /*
         background-color: white !important;
         background-image: url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg);
         background-repeat: no-repeat,no-repeat,no-repeat;
         background-position: -3.211% -124%,19% -18%,75% 15%;
         background-size: 19%, 15%, 9%;
+        */
         height: 800px !important;
         width: auto;
         
@@ -349,12 +355,13 @@
     /*Inicio seccion4*/
     
     .background_seccion4{
-    
+        /*
         background-color: white !important;
         background-image: url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg);
         background-repeat: no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
         background-position: 0% 50%, 115% 20%,30% 5%,65% 100%,90% 100%;
         background-size: 45%,28%,10%,10%,10%;
+        */
         height: 1000px !important;
         width: 107% !important;
     
@@ -487,11 +494,12 @@
         color: #041160;
         margin-top: 4%;
         font-weight: 500;
-        font-size: 320%;
+        font-size: 300%;
         position: absolute;
         z-index: 4;
-        margin-left: 22%;
-        margin-top: -7%;
+        margin-left: 19%;
+        margin-top: -9%;
+    
     
     }
     
@@ -504,17 +512,17 @@
         position: absolute;
         z-index: 4;
         margin-left: 56%;
-        margin-top: -35%;
+        margin-top: -39%;
     }
     
     .button_form{
-        height: 11%;
+        height: 6%;
         font-size: 20px !important;
         background-color: #041160 !important;
         border: none !important;
         color: white !important;
         text-decoration: none !important;
-        margin: -8% 65% !important;
+        margin: -7% 65% !important;
         cursor: pointer !important;
         border-radius: 35px;
         padding: 1px 70px;
@@ -536,7 +544,7 @@
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
-        margin-top: -21%;
+        margin-top: -27%;
     }
     
     
@@ -554,7 +562,7 @@
         margin-left: 59%;
         font-size: 200%;
         width: 400px;
-        margin-top: -15%;
+        margin-top: -21%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
@@ -632,9 +640,9 @@
     
     
     .image_test {
-        width: 1300px;
-        height: 900px;
-        margin-top: -53%;
+        width: 103%;
+        height: 1000px;
+        margin-top: -59%;
         margin-left: 2%;
         z-index: 2;
         position: absolute;
@@ -754,7 +762,7 @@
     
     .contacto_container
     {
-        height: 430px !important;
+        height: 465px !important
     }
 
 
