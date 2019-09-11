@@ -5,7 +5,7 @@
     body{
         background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg) !important;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
-        background-position: 10% 19%, 38% 26%,71% 25%,0% 31%,19% 37%,79% 38%,0% 68%, 113% 65%,35% 56%,64% 76%,88% 75%;
+        background-position: 10% 19%, 38% 26%,71% 25%,0% 31%,19% 37%,79% 38%,0% 66%, 113% 65%,35% 56%,64% 76%,88% 75%;
         background-size: 14%,10%,10%,20%,15%,10%,45%,28%,10%,10%,10%;
     }
 
