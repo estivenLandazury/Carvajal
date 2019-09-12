@@ -2,9 +2,9 @@
 /*
 This first bit sets the email address that you want the form to be submitted to.
 You will need to change this value to a valid email address that you can access.
+"cts.prescriptiva@carvajal.com";
 */
-$webmaster_email = "cts.prescriptiva@carvajal.com";
-
+$webmaster_email = "franciscovegac97@gmail.com"
 /*
 This bit sets the URLs of the supporting pages.
 If you change the names of any of the pages, you will need to change the values here.
@@ -17,14 +17,12 @@ $thankyou_page = "thank_you.html";
 This next bit loads the form field data into variables.
 If you add a form field, you will need to add it here.
 */
-$email_address = $_REQUEST['enterprise'] ;
-$comments = $_REQUEST['comments'] ;
-$first_name = $_REQUEST['first_name'] ;
-$telephone=$_REQUEST['telephone'] ;
+
+$first_name = $_REQUEST['name'] ;
+$telephone=$_REQUEST['number'] ;
 $msg = 
-"First Name: " . $first_name . "\r\n" . 
-"Enterprise: " . $email_address . "\r\n" . 
-"Comments: " . $comments  . "\r\n" .
+"Name: " . $first_name. "\r\n" . 
+
 "telephone:" . $telephone;
 
 /*
