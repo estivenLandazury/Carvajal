@@ -1,4 +1,4 @@
-@media only screen  and (max-width:720px) and (min-width:720px)
+@media only screen  and (max-width:720px) and (min-width:700px)
 {
 
 
@@ -485,7 +485,8 @@
 
         margin-top: 22% !important;
 
-        margin-left: -5%;
+        margin-left: -6%;
+
     
     }
  
