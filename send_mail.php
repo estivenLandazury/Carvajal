@@ -2,9 +2,9 @@
 /*
 This first bit sets the email address that you want the form to be submitted to.
 You will need to change this value to a valid email address that you can access.
-"cts.prescriptiva@carvajal.com";
+"";
 */
-$webmaster_email = "franciscovegac97@gmail.com"
+$webmaster_email = "cts.prescriptiva@carvajal.com";
 /*
 This bit sets the URLs of the supporting pages.
 If you change the names of any of the pages, you will need to change the values here.
@@ -22,7 +22,6 @@ $first_name = $_REQUEST['name'] ;
 $telephone=$_REQUEST['number'] ;
 $msg = 
 "Name: " . $first_name. "\r\n" . 
-
 "telephone:" . $telephone;
 
 /*
@@ -49,12 +48,12 @@ function isInjected($str) {
 }
 
 // If the user tries to access this script directly, redirect them to the feedback form,
-if (!isset($_REQUEST['first_name'])) {
+if (!isset($_REQUEST['name'])) {
 header( "Location: $feedback_page" );
 }
 
 // If the form fields are empty, redirect to the error page.
-elseif (empty($first_name) || empty($email_address)) {
+elseif (empty($first_name) || empty($telephone)) {
 header( "Location: $error_page" );
 }
 
@@ -62,7 +61,7 @@ header( "Location: $error_page" );
 If email injection is detected, redirect to the error page.
 If you add a form field, you should add it here.
 */
-elseif ( isInjected($email_address) || isInjected($first_name)  || isInjected($comments) ) {
+elseif ( isInjected($telephone) || isInjected($first_name)  ) {
 header( "Location: $error_page" );
 }
 
@@ -70,7 +69,6 @@ header( "Location: $error_page" );
 else {
 
 	mail( "$webmaster_email", "Solicitud de Interes", $msg );
-
 	header( "Location: $thankyou_page" );
 }
 ?>
