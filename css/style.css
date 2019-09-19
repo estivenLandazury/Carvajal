@@ -7,7 +7,7 @@
 */
 
 
-@media only screen  and (max-width:2048px) and (min-width:1921px)
+@media only screen and (min-width:1921px)
 {
 
 
@@ -254,12 +254,10 @@ body{
       {
   
         position: absolute;
-
         align-content: center;
-        
         top: 41%;
-        
-        right: 31%
+        margin-left: 18%;
+        margin-right: 18%;
       }
   
   
@@ -489,6 +487,7 @@ FORM
     position: absolute;
     z-index: 4;
     margin-left: 53%;
+    margin-right: 15%;
     margin-top: -13%;
 
 }
