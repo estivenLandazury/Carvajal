@@ -73,7 +73,7 @@
     .row_movile
     {
 
-        margin-top: -7% !important;
+        margin-top: 4% !important;
     } 
 
     .row:after {
@@ -99,8 +99,10 @@
     
     .column .title
     {
-        font-size: 250% !important;
+        font-size: 165% !important;
+
         color: #4AC3E9;
+        
         font-weight: 600;
 
     
@@ -108,10 +110,14 @@
     
     .paragraph
     {
-        font-size: 110% !important;
+        font-size: 100% !important;
+
         margin-top: 5% !important;
+        
         margin-left: 10% !important;
+        
         font-family: 'Montserrat', sans-serif !important;
+        
         color: #526775;
     }
     

@@ -73,7 +73,7 @@
     .row_movile
     {
 
-        margin-top: -7% !important;
+        margin-top: 7% !important;
     } 
 
     .row:after {
@@ -99,8 +99,10 @@
     
     .column .title
     {
-        font-size: 250% !important;
+        font-size: 210% !important;
+
         color: #4AC3E9;
+        
         font-weight: 600;
 
     
