@@ -1,4 +1,4 @@
-@media only screen  and (max-width:699px) and (min-width:640px)
+@media only screen  and (max-width:639px) and (min-width:580px)
 {
 
     body{
@@ -6,7 +6,7 @@
         background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg) !important;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
         background-position: 9% 11%, 27% 14%,76% 14%,0% 19%,19% 37%,73% 38%,0% 58%, 113% 65%,35% 56%,64% 73%,88% 73%;
-        background-size: 14%,10%,10%,28%,15%,10%,74%,28%,10%,10%,10%;
+        background-size: 14%,10%,10%,28%,15%,10%,80%,28%,10%,10%,10%;
         margin: 0 0 0 0 !important;
     
     }
@@ -419,7 +419,7 @@
         font-size: 187% !important;
         color: white;
         font-weight: 300;
-        margin-top: 60%;
+        margin-top: 87%;
         margin-left: 4%;
         margin-right: 37%;
         margin-bottom: 13%;
@@ -538,8 +538,8 @@
         font-size: 160%;
         position: absolute;
         z-index: 4;
-        margin-left: 19%;
-        margin-top: 17%;
+        margin-left: 16%;
+        margin-top: 27%;
         margin-bottom: 17%;
     }
     
@@ -551,8 +551,8 @@
         font-size: 135%;
         position: absolute;
         z-index: 4;
-        margin-left: 21%;
-        margin-top: -37%;
+        margin-left: 16%;
+        margin-top: -29%;
     }
     
     .button_form{
@@ -562,7 +562,7 @@
         border: none !important;
         color: white !important;
         text-decoration: none !important;
-        margin: 6% 36% !important;
+        margin: 14% 32% !important;
         cursor: pointer !important;
         border-radius: 35px;
         padding: 1px 62px;
@@ -579,12 +579,12 @@
         position: absolute;
         z-index: 4;
         width: 300px;
-        margin-left: 30%;
+        margin-left: 28%;
         font-size: 180%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
-        margin-top: -23%;
+        margin-top: -14%;
     }
     
     
@@ -600,10 +600,10 @@
     {
         position: absolute;
         z-index: 4;
-        margin-left: 30%;
+        margin-left: 28%;
         font-size: 180%;
         width: 300px;
-        margin-top: -5%;
+        margin-top: -2%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
@@ -708,10 +708,10 @@
     .left_container
     {
     
-    
         margin-top: -10%;
-
         margin-left: 9%;
+        margin-right: 21%;
+    
     }
     
     .column_footer_rigth
@@ -814,7 +814,7 @@
 
     .row_footer{
 
-        margin-top: 50%;
+        margin-top: 60%;
 
     }
 
@@ -847,10 +847,10 @@
         background-color: white;
         z-index: 4;
         width: 82%;
-        height: 32%;
+        height: 30%;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        margin-left: 24%;
-        margin-top: 127%;
+        margin-left: 25%;
+        margin-top: 161%;
 
     }
 
