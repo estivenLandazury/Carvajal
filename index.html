@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/responsive/375_Iphone.css" media="screen"   type="text/css">
     <link rel="stylesheet" href="css/responsive/412_responsive.css" media="screen"   type="text/css">
     <link rel="stylesheet" href="css/responsive/414_Iphone.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="css/responsive/421_responsive.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="css/responsive/470_responsive.css" media="screen" type="text/css">
     <link rel="stylesheet" href="css/responsive/579_responsive.css" media="screen" type="text/css">
     <link rel="stylesheet" href="css/responsive/639_responsive.css" media="screen" type="text/css">
     <link rel="stylesheet" href="css/responsive/700_responsive.css" media="screen" type="text/css">
@@ -393,7 +395,7 @@
             </input>
             <input  class="name_form" type="text" id="name" name="name" placeholder="¿De donde nos contactas?">
             </input>
-            <input  id="sendInfo" type="submit" class="button_form" value="Contáctanos"></input>
+            <input  id="sendInfo"  type="button"class="button_form" value="Contáctanos"></input>
         </form>
 
         
@@ -584,35 +586,39 @@
     </script>
 
 <script>
+
+
     document.getElementById('sendInfo').addEventListener('click', restCall);
     function restCall()
     {
-    
-        
+    var name = document.getElementById("name").value;
+    var number= document.getElementById("number").value;
+
+
     let Data=
         {
       "toEmails":[
-        "fjvega@uninorte.edu.co"],
-      "subject": "Prueba PostMan",
-      "message": "Esto es el mensaje donde iria la informacion , el telefono y la empresa"
+        "cts.prescriptiva@carvajal.com"],
+      "subject": "Prescriptiva - Contacto",
+      "message": "Nombre de la empresa: "+name+"-----"+"Número de la empresa: "+number
     }
     
+
+
+
         let options={method:'POST', 
                 headers: {
                 'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*'
                 },
                 body:JSON.stringify(Data)
             }
             
             fetch('https://0gqxxhb0wb.execute-api.us-east-1.amazonaws.com/Prod/send/',options)
                 .then(function(response) {
-                    return response.json();
+                  location.reload();
                 })
-                .then(function(myJson) {
-                    console.log(myJson);
-                });
-    
+
+   
     
     }
     

@@ -1,12 +1,12 @@
-@media only screen  and (max-width:639px) and (min-width:580px)
+@media only screen  and (max-width:469px) and (min-width:419px)
 {
 
     body{
         
         background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg) !important;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
-        background-position: 9% 11%, 27% 14%,76% 14%,0% 19%,19% 37%,73% 38%,0% 58%, 113% 65%,35% 56%,64% 73%,88% 73%;
-        background-size: 14%,10%,10%,28%,15%,10%,80%,28%,10%,10%,10%;
+        background-position: 9% 11%, 27% 14%,76% 14%,0% 19%,19% 37%,73% 38%,0% 55%, 113% 65%,35% 56%,64% 73%,88% 73%;
+        background-size: 14%,10%,10%,28%,15%,10%,93%,28%,10%,10%,10%;
         margin: 0 0 0 0 !important;
     
     }
@@ -73,7 +73,7 @@
     .row_movile
     {
 
-        margin-top: -6% !important;
+        margin-top: -7% !important;
     } 
 
     .row:after {
@@ -99,7 +99,7 @@
     
     .column .title
     {
-        font-size: 250% !important;
+        font-size: 200% !important;
         color: #4AC3E9;
         font-weight: 600;
 
@@ -128,7 +128,7 @@
     
     .button_paragraph
     {
-        height: 13%;
+        height: 17%;
         font-size: 13px !important;
         background-color: #041160 !important;
         border: none !important;
@@ -210,8 +210,8 @@
       .row_card {
 
 
-        margin-left: 32%;
-        margin-right: 21%;
+        margin-left: 20%;
+        margin-right: 24%;
     }
       
       /* Clear floats after the columns */
@@ -258,7 +258,7 @@
         position: absolute;
         align-content: center;
         top: 36%;
-        right: 38%;
+        right: 22%;
     
     }
 
@@ -311,8 +311,10 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 37% !important;
+        margin-left: 28% !important;
         margin-top: 10% !important;
+        margin-right: 18%;
+    
 
     }
 
@@ -415,12 +417,12 @@
     .title_seccion4
     {
         font-family: 'Montserrat', sans-serif !important;
-        font-size: 187% !important;
+        font-size: 160% !important;
         color: white;
         font-weight: 300;
-        margin-top: 87%;
+        margin-top: 106%;
         margin-left: 4%;
-        margin-right: 37%;
+        margin-right: 31%;
         margin-bottom: 13%;
     
     
@@ -459,8 +461,8 @@
         width: 400px;
         height: 200px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        margin-left: 28%;
-        margin-top: 36%;
+        margin-left: 10%;
+        margin-top: 63%;
         
     }
     
@@ -473,7 +475,7 @@
         height: 200px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
         margin-top: 4%;
-        margin-left: 84%;
+        margin-left: 48%; 
     
     }
     
@@ -486,7 +488,7 @@
         height: 200px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
         margin-top: 3%;
-        margin-left: 28%;
+        margin-left: 10%;
     }
     
     .card_number4
@@ -498,7 +500,7 @@
         height: 200px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
         margin-top: 0%;
-        margin-left: 84%;
+        margin-left: 48%;
     }
     
     .card_text
@@ -531,15 +533,24 @@
     .form_text
     {
         font-family: 'Montserrat', sans-serif !important;
+
         color: #041160;
+        
         margin-top: 4%;
+        
         font-weight: 500;
-        font-size: 160%;
+        
+        font-size: 151%;
+        
         position: absolute;
+        
         z-index: 4;
-        margin-left: 16%;
-        margin-top: 27%;
-        margin-bottom: 17%;
+        
+        margin-left: 9%;
+        
+        margin-top: 35%;
+        
+        margin-bottom: 19%;
     }
     
     .form_tittle
@@ -547,27 +558,40 @@
         font-family: 'Montserrat', sans-serif !important;
         color: #041160;
         font-weight: 500;
-        font-size: 135%;
+        font-size: 108%;
         position: absolute;
         z-index: 4;
-        margin-left: 16%;
-        margin-top: -29%;
+        margin-left: 10%;
+        margin-top: -31%;
     }
     
     .button_form{
         height: 8%;
+
         font-size: 18px !important;
+        
         background-color: #041160 !important;
+        
         border: none !important;
+        
         color: white !important;
+        
         text-decoration: none !important;
-        margin: 14% 32% !important;
+        
+        margin: 16% 25% !important;
+        
         cursor: pointer !important;
+        
         border-radius: 35px;
+        
         padding: 1px 62px;
+        
         box-shadow: 0px 0px 66px -12px rgba(108,82,240,0.89);
+        
         text-shadow: 1px 0;
+        
         position: absolute;
+        
         z-index: 4;
     
     }
@@ -578,7 +602,7 @@
         position: absolute;
         z-index: 4;
         width: 300px;
-        margin-left: 28%;
+        margin-left: 16%;
         font-size: 180%;
         text-align: center;
         border: none;
@@ -599,7 +623,7 @@
     {
         position: absolute;
         z-index: 4;
-        margin-left: 28%;
+        margin-left: 16%;
         font-size: 180%;
         width: 300px;
         margin-top: -2%;
@@ -709,7 +733,7 @@
     
         margin-top: -10%;
         margin-left: 9%;
-        margin-right: 21%;
+        margin-right: 34%;
     
     }
     
@@ -843,13 +867,20 @@
 
     .card_form{
         position: relative;
+
         background-color: white;
+        
         z-index: 4;
-        width: 82%;
-        height: 30%;
+        
+        width: 92%;
+        
+        height: 29%;
+        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        margin-left: 25%;
-        margin-top: 161%;
+        
+        margin-left: 20%;
+        
+        margin-top: 231%;
 
     }
 

@@ -72,9 +72,8 @@
     
     .row_movile
     {
-    /* margin-right: -51px; */
-    /* margin-left: -86px; */
-    margin-top: -3% !important;
+
+        margin-top: -7% !important;
     } 
 
     .row:after {
@@ -129,7 +128,7 @@
     
     .button_paragraph
     {
-        height: 13%;
+        height: 17%;
         font-size: 13px !important;
         background-color: #041160 !important;
         border: none !important;
@@ -259,7 +258,7 @@
         position: absolute;
         align-content: center;
         top: 36%;
-        right: 38%;
+        right: 29%;
     
     }
 
@@ -710,7 +709,7 @@
     
         margin-top: -10%;
         margin-left: 9%;
-        margin-right: 21%;
+        margin-right: 34%;
     
     }
     
