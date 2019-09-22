@@ -247,7 +247,7 @@ body{
         
         top: -118%;
         
-        right: -3%;
+        right: 6%;
       }
       
       .img_container
@@ -381,7 +381,7 @@ body{
     font-size: 370% !important;
     color: white;
     font-weight: 300;
-    margin-top: 50%;
+    margin-top: 60%;
     margin-left: 20%;
 
 
@@ -474,7 +474,7 @@ FORM
     position: absolute;
     z-index: 4;
     margin-left: 17%;
-    margin-top: 10%;
+    margin-top: 400px;
 
 }
 
@@ -505,7 +505,7 @@ FORM
     
     text-decoration: none !important;
     
-    margin: 10% 61% !important;
+    margin: 10% 65% !important;
     
     cursor: pointer !important;
     
@@ -531,7 +531,7 @@ FORM
     margin-left: 59%;
     font-size: 200%;
     margin-top: -3%;
-    width: 400px;
+    width: 25%;
     text-align: center;
     border: none;
     border-bottom: 4px solid #041160;
@@ -552,7 +552,7 @@ FORM
     z-index: 4;
     margin-left: 59%;
     font-size: 200%;
-    width: 400px;
+    width: 25%;
     margin-top: 2%;
     text-align: center;
     border: none;
@@ -629,8 +629,8 @@ FORM
 
 
 .image_test {
-    width: 2000px;
-    height: 1200px;
+    width: 100%;
+    height: 1600px;
     margin-top: -29%;
     margin-left: -2%;
     z-index: 2;
@@ -650,7 +650,7 @@ FORM
 {
 
 
-    margin-top: 30%; 
+    margin-top: 54%; 
     margin-left: 9%;
 }
 
@@ -700,7 +700,7 @@ FORM
 {
 
 
-    margin-top: 121%;
+    margin-top: 222%;
     margin-right: 9%;
     font-size: 70%;
 }

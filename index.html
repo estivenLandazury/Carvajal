@@ -583,7 +583,6 @@
     var name = document.getElementById("name").value;
     var number= document.getElementById("number").value;
 
-
     let Data=
         {
       "toEmails":[
@@ -601,11 +600,19 @@
                 },
                 body:JSON.stringify(Data)
             }
-            
-            fetch('https://0gqxxhb0wb.execute-api.us-east-1.amazonaws.com/Prod/send/',options)
+    
+    if(name=="" || number=="")
+    {
+        location.reload();
+    }else 
+    {
+        fetch('https://0gqxxhb0wb.execute-api.us-east-1.amazonaws.com/Prod/send/',options)
                 .then(function(response) {
                   location.reload();
                 })
+    }
+            
+
 
    
     

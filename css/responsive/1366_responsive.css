@@ -710,7 +710,7 @@
     
     .img_footer
     {
-        width: 4%;
+        width: 2%;
         height: 4%;
         display: inline;
     }
@@ -751,4 +751,11 @@
         text-decoration: none!important; 
     
     }
+
+    .horizontal-footer
+   {
+       width: 100%;
+   } 
+
+
 }
