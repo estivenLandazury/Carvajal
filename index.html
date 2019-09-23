@@ -98,7 +98,10 @@
 
 
 
+
     <section id="home" class="">
+
+
         <div class="carosal-area">
             <!--<img src="img/Prescriptiva/Header%20BG-04.jpg" class="responsive"> -->
             <div class="row row_movile row_seccion1">
@@ -382,7 +385,7 @@
             
             <input  class="cellphone_form"type="text" id="number" name="number" placeholder="000-000-0000" onkeypress='validate(event)'>
             </input>
-            <input  class="name_form" type="text" id="name" name="name" placeholder="¿De donde nos contactas?">
+            <input  class="name_form" type="text" id="name" name="name" placeholder="¿De que empresa nos contactas?">
             </input>
             <input  id="sendInfo"  type="button"class="button_form" value="Contáctanos"></input>
         </form>
@@ -586,7 +589,7 @@
     let Data=
         {
       "toEmails":[
-        "cts.prescriptiva@carvajal.com"],
+        "fjvega@uninorte.edu.co"],
       "subject": "Prescriptiva - Contacto",
       "message": "Nombre de la empresa: "+name+"-----"+"Número de la empresa: "+number
     }
@@ -608,7 +611,13 @@
     {
         fetch('https://0gqxxhb0wb.execute-api.us-east-1.amazonaws.com/Prod/send/',options)
                 .then(function(response) {
-                  location.reload();
+                
+                
+                 document.getElementById("Contact_form").reset();
+                 alert("Solicitud de contacto enviada con exito");
+                
+
+
                 })
     }
             
