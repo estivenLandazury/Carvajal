@@ -1,4 +1,4 @@
-@media only screen  and (max-width:699px) and (min-width:640px)
+@media only screen  and (max-width:719px) and (min-width:640px)
 {
 
     body{
@@ -745,6 +745,7 @@
         font-weight: 340;
         font-size: 110%;
         letter-spacing: 1px;
+        margin-right: 18%;
     }
     
     

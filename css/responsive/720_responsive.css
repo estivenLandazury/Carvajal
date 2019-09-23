@@ -1,7 +1,16 @@
-@media only screen  and (max-width:720px) and (min-width:700px)
+@media only screen  and (max-width:767px) and (min-width:720px)
 {
 
 
+    body{
+        
+        background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg) !important;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
+        background-position: 9% 11%, 27% 14%,76% 14%,0% 19%,19% 37%,73% 38%,0% 58%, 113% 65%,35% 56%,64% 73%,88% 73%;
+        background-size: 14%,10%,10%,28%,15%,10%,74%,28%,10%,10%,10%;
+        margin: 0 0 0 0 !important;
+    
+    }
 
     .logo{
 
@@ -64,9 +73,9 @@
     
     .row_movile
     {
-        margin-right: -51px;
-        margin-left: -86px;
-        margin-top: 18% !important;
+    /* margin-right: -51px; */
+    /* margin-left: -86px; */
+    margin-top: -3% !important;
     } 
 
     .row:after {
@@ -147,21 +156,13 @@
 
     .background_forms{
         
-        background-image: url("../../SVG/Recurso\ 3.svg"), url("../../SVG/Recurso\ 7.svg"), url("../../SVG/Recurso\ 4.svg"), url("../../SVG/Recurso\ 8.svg"), url("../../SVG/Recurso\ 16.svg");
 
-        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat;
         
-        background-position: 7% 7%, 29% 33%,68% 30%,0% 147%,22% 125%;
-        
-        background-size: 12%,10%,9%,21%,19%;
-        
-        height: 476px !important;
-        
-        margin-left: -87px !important;
-        
-        width: 720px !important;
-        
+        height: 1300px !important;
+        /* margin-left: 1% !important; */
+        width: 100% !important;
         padding: 0 0 !important;
+        
     
     
     }
@@ -187,18 +188,11 @@
     .solucion_subtitulo
     {
         font-size: 150% !important;
-
         color: #041160;
-        
         font-weight: 600;
-        
         letter-spacing: 1px;
-        
         margin-left: 41%;
-        
         margin-top: 9%;
-        
-        font-weight: 700;
     
     }
     
@@ -209,7 +203,7 @@
       .column_card {
         align-content: center;
         float: left;
-        width: 25%;
+        width: 100%;
         padding: 0 4px;
         position: relative;
       }
@@ -218,10 +212,8 @@
       .row_card {
 
 
-        margin-left: -2%;
-
-        margin-right: 8%;
-
+        margin-left: 32%;
+        margin-right: 21%;
     }
       
       /* Clear floats after the columns */
@@ -246,7 +238,7 @@
       .img_card{
         border: none !important;
         border-radius: 25px;
-        height: 211px;
+        height: 260px;
         width: 244px;
     }
 
@@ -268,7 +260,7 @@
         position: absolute;
         align-content: center;
         top: 36%;
-        right: -14%;
+        right: 38%;
     
     }
 
@@ -308,22 +300,13 @@
     
     /*Inicio sección 3*/
     .background_seccion3{
-    
-        background-color: white !important;
 
-        background-image: url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg);
         
-        background-repeat: no-repeat,no-repeat,no-repeat;
+
         
-        background-position: -4% -818.012%,22% -27%,80% 39%;
-        
-        background-size: 28%, 19%, 9%;
-        
-        height: 488px !important;
-        
-        width: 720px !important;
-        
-        margin-left: -15% !important;
+        height: auto !important;
+        width: 100%!important;
+        /* margin-left: -15% !important;*/
     
     }
 
@@ -331,6 +314,8 @@
     .subtitulo_seccion3
     {
         margin-left: 37% !important;
+        margin-top: 10% !important;
+
     }
 
 
@@ -353,11 +338,10 @@
     .img_seccion3{
 
 
-        width: 63%;
-
+        width: 20%;
         align-self: center;
-        
-        margin-left: 13%;
+        /* margin-left: 32%; */
+        margin: 0% 40%;
     }
 
 
@@ -372,12 +356,8 @@
     .column_seccion3{
     
         align-content: center;
-
         float: left;
-        
-        width: 18%;
-        
-        margin-right: 12px;
+        width: 100%;
     
     }
 
@@ -386,12 +366,10 @@
     .row_seccion3
     {
         padding-top: 7%;
-
         align-content: center;
-        
-        width: 720px;
-        
-        margin-left: 3%;
+        width: 100%;
+        /* margin-left: 3%; */
+        margin: 0% 0% !important;
 
     
     }
@@ -399,18 +377,14 @@
     
     .title_seccion3{
         font-family: 'Montserrat', sans-serif !important;
-
         color: #041160;
-        
         margin-top: 4%;
-        
         font-weight: 400;
-        
         letter-spacing: 2px;
-        
         font-size: 88%;
-        
-        margin-left: -16%;
+        margin-left: 17%;
+        margin-right: 15%;
+        /* margin: 0% 32%;*/
     
     
     }
@@ -421,20 +395,10 @@
     
     .background_seccion4{
     
-        background-color: white !important;
 
-        background-image: url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg);
         
-        background-repeat: no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
-        
-        background-position: 0% 35%, 115% 20%,30% 5%,65% 100%,90% 100%;
-        
-        background-size: 51%,28%,10%,10%,10%;
-        
-        height: 780px !important;
-        
-        width: 720px !important;
-        
+        height: 1800px !important;
+        width: 100% !important;
         margin-left: -15% !important;
     
     }
@@ -453,16 +417,13 @@
     .title_seccion4
     {
         font-family: 'Montserrat', sans-serif !important;
-
-        font-size: 176% !important;
-        
+        font-size: 187% !important;
         color: white;
-        
         font-weight: 300;
-        
-        margin-top: 93%;
-        
-        margin-left: 6%;
+        margin-top: 60%;
+        margin-left: 4%;
+        margin-right: 37%;
+        margin-bottom: 13%;
     
     
     }
@@ -471,9 +432,10 @@
     {
 
         float: left;
-        width: 41% !important;
+        width: 98% !important;
         padding: 10px;
-        height: 800px;
+        height: 400px;
+        margin-left: 13%;
     }
     .row4{
 
@@ -494,98 +456,64 @@
     .card_number1
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
-        width: 210px;
-        
-        height: 165px;
-        
+        width: 400px;
+        height: 200px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-left: 14%;
-        
-        margin-top: 6%;
+        margin-left: 28%;
+        margin-top: 36%;
         
     }
     
     .card_number2
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
-        width: 210px;
-        
-        height: 165px;
-        
+        width: 400px;
+        height: 200px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
         margin-top: 4%;
-        
-        margin-left: 54%;
+        margin-left: 84%;
     
     }
     
     .card_number3
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
-        width: 210px;
-        
-        height: 165px;
-        
+        width: 400px;
+        height: 200px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
         margin-top: 3%;
-        
-        margin-left: 15%
+        margin-left: 28%;
     }
     
     .card_number4
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
-        width: 210px;
-        
-        height: 165px;
-        
+        width: 400px;
+        height: 200px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-top: -2%;
-        
-        margin-left: 55%;
+        margin-top: 0%;
+        margin-left: 84%;
     }
     
     .card_text
     {
         margin-top: 6%;
-
         margin-left: 6px;
-        
         color: #526775;
-        
-        font-size: 85%;
-        
+        font-size: 110%;
         font-family: 'Montserrat', sans-serif !important;
-        
         padding-top: 15%;
-        
         margin-left: 9%;
-        
         font-weight: 300;
+        margin-right: 7%;
     }
     
     .card_text_highlight
@@ -605,42 +533,27 @@
     .form_text
     {
         font-family: 'Montserrat', sans-serif !important;
-
         color: #041160;
-        
         margin-top: 4%;
-        
         font-weight: 500;
-        
         font-size: 160%;
-        
         position: absolute;
-        
         z-index: 4;
-        
-        margin-left: 6%;
-        
-        margin-top: -2%;
-    
+        margin-left: 19%;
+        margin-top: 17%;
+        margin-bottom: 17%;
     }
     
     .form_tittle
     {
         font-family: 'Montserrat', sans-serif !important;
-
         color: #041160;
-        
         font-weight: 500;
-        
         font-size: 135%;
-        
         position: absolute;
-        
         z-index: 4;
-        
-        margin-left: 53%;
-        
-        margin-top: -42%;
+        margin-left: 21%;
+        margin-top: -37%;
     }
     
     .button_form{
@@ -650,7 +563,7 @@
         border: none !important;
         color: white !important;
         text-decoration: none !important;
-        margin: -6% 59% !important;
+        margin: 6% 36% !important;
         cursor: pointer !important;
         border-radius: 35px;
         padding: 1px 62px;
@@ -667,12 +580,12 @@
         position: absolute;
         z-index: 4;
         width: 300px;
-        margin-left: 57%;
+        margin-left: 30%;
         font-size: 180%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
-        margin-top: -28%;
+        margin-top: -23%;
     }
     
     
@@ -688,10 +601,10 @@
     {
         position: absolute;
         z-index: 4;
-        margin-left: 57%;
+        margin-left: 30%;
         font-size: 180%;
         width: 300px;
-        margin-top: -20%;
+        margin-top: -5%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
@@ -732,7 +645,7 @@
     .background_seccion5
     {
         max-height: 400px !important;
-        background: white;
+        /*background: white;*/
         min-height: 300px !important;
         
     }
@@ -740,13 +653,13 @@
     
     .footer_gradient
     {
-        width: 721px;
+        width: 100% !important;
 
         min-height: 400px !important;
         
         background: linear-gradient(312deg, rgba(91,59,255,1) 0%, rgba(46,198,236,1) 100%) !important;
         
-        margin-left: -15% !important;
+        margin-left: 0% !important;
     }
 
 
@@ -779,7 +692,7 @@
         margin-left: -8%;
         z-index: 2;
         position: absolute;
-    
+        display: none;
     
     }
     
@@ -833,6 +746,7 @@
         font-weight: 340;
         font-size: 110%;
         letter-spacing: 1px;
+        margin-right: 4%;
     }
     
     
@@ -902,7 +816,7 @@
 
     .row_footer{
 
-        margin-top: 26%;
+        margin-top: 75%;
 
     }
 
@@ -930,6 +844,14 @@
     
     }
 
-
-
+    .card_form{
+        position: relative;
+        background-color: white;
+        z-index: 4;
+        width: 82%;
+        height: 32%;
+        box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
+        margin-left: 24%;
+        margin-top: 119%;
+    }
 }
