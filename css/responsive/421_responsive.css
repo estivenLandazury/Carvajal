@@ -2,15 +2,6 @@
 {
 
     
-    body{
-        
-        background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg) !important;
-        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
-        background-position: 9% 11%, 27% 14%,76% 14%,0% 19%,19% 37%,73% 38%,0% 55%, 113% 65%,35% 56%,64% 73%,88% 73%;
-        background-size: 14%,10%,10%,28%,15%,10%,93%,28%,10%,10%,10%;
-        margin: 0 0 0 0 !important;
-    
-    }
 
     .logo{
 
@@ -73,8 +64,9 @@
     
     .row_movile
     {
-
-        margin-top: 7% !important;
+        margin-right: -39px;
+        margin-left: -45px;
+        margin-top: 27% !important;
     } 
 
     .row:after {
@@ -93,17 +85,15 @@
     .column_image {
     
         float: left;
-        width: 50%;
-        padding: 10px;
-        height: 400px
+        width: 50%;      
+        padding: 10px;  
+        height: 250px;
     }
     
     .column .title
     {
-        font-size: 170% !important;
-
+        font-size: 144% !important;
         color: #4AC3E9;
-        
         font-weight: 600;
 
     
@@ -111,11 +101,11 @@
     
     .paragraph
     {
-        font-size: 100% !important;
+        font-size: 88% !important;
         margin-top: 5% !important;
         margin-left: 10% !important;
         font-family: 'Montserrat', sans-serif !important;
-        color: #526775;
+        color: #526775
     }
     
     
@@ -131,13 +121,13 @@
     
     .button_paragraph
     {
-        height: 17%;
-        font-size: 13px !important;
+        height: 13%;
+        font-size: 11px !important;
         background-color: #041160 !important;
         border: none !important;
         color: white !important;
         text-decoration: none !important;
-        margin: 11% 28% !important;
+        margin: 3% 16% !important;
         cursor: pointer !important;
         border-radius: 35px;
         padding: 4px 27px;
@@ -157,65 +147,50 @@
 
     .background_forms{
         
-
         
-        height: 1300px !important;
-        /* margin-left: 1% !important; */
-        width: 100% !important;
-        padding: 0 0 !important;
-        
+        background-image: url("../../SVG/Recurso\ 3.svg"), url("../../SVG/Recurso\ 7.svg"), url("../../SVG/Recurso\ 4.svg"), url("../../SVG/Recurso\ 8.svg"), url("../../SVG/Recurso\ 16.svg");
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat;
+        background-position: 13% 7%, 40% 33%,67% 42%,0% 300%,19% 125%;
+        background-size: 14%,10%,8%,20%,15%;
     
     
     }
     
     .solucion_titulo{
             
-        font-size: 150% !important;
-
+        font-size: 109% !important;
         color: #338BFF;
-        
-        font-weight: 600;
-        
+        font-weight: 400;
         letter-spacing: 4px;
-        
         margin-left: 18%;
-        
         margin-top: 10%;
-        
         font-weight: 800;
     }
-
-
     .solucion_subtitulo
     {
         font-size: 150% !important;
         color: #041160;
-        font-weight: 600;
+        font-weight: 400;
+        /* text-shadow: 2px 0; */
         letter-spacing: 1px;
-        margin-left: 41%;
+        margin-left: 31%;
         margin-top: 9%;
+        font-weight: 700;
     
     }
-    
-    
     
 
 
       .column_card {
         align-content: center;
         float: left;
-        width: 100%;
+        width: 25%;
         padding: 0 4px;
         position: relative;
       }
       
       /* Remove extra left and right margins, due to padding */
-      .row_card {
-
-
-        margin-left: 20%;
-        margin-right: 24%;
-    }
+      .row_card {margin: 0 -5px;}
       
       /* Clear floats after the columns */
       .row_card:after {
@@ -237,22 +212,21 @@
       /* Style the counter cards */
     
       .img_card{
+        padding-left: 22%;
         border: none !important;
         border-radius: 25px;
-        height: 260px;
-        width: 244px;
+        height: 280px;
+        width: 266px;
     }
-
-
     .img_number
     {
-            position: absolute;
-            font-size: 250%;
-            color: white !important;
-            font-family: 'Montserrat', sans-serif !important;
-            font-weight: 800;
-            top: -85%;
-            right: -2%;
+        position: absolute;
+        font-size: 300%;
+        color: white !important;
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: 800;
+        top: -85%;
+        right: -2%;
     }
     
     .img_container
@@ -260,8 +234,9 @@
 
         position: absolute;
         align-content: center;
-        top: 36%;
-        right: 22%;
+        top: 37%;
+        right: 34%;
+        left: 27%;
     
     }
 
@@ -270,7 +245,7 @@
     .img_title
     {
         
-        font-size: 150%;
+        font-size: 170%;
         color: white !important;
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 900;
@@ -291,49 +266,38 @@
 
 
     .img_text{
-        font-size: 120%;
+        font-size: 116%;
         color: white !important;
         font-family: 'Montserrat', sans-serif !important;
-        font-weight: 100
+        font-weight: 100;
     }
     
     /*Fin la sección 2 */
     
     /*Inicio sección 3*/
     .background_seccion3{
-
-        
-
-        
-        height: auto !important;
-        width: 100%!important;
-        /* margin-left: -15% !important;*/
+    
+        background-color: white !important;
+        background-image: url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg);
+        background-repeat: no-repeat,no-repeat,no-repeat;
+        background-position: 0% -435%,19% -29%,75% 25%;
+        background-size: 20%, 15%, 9%;
+        height: 1134px !important;
+        width: auto;
     
     }
 
     
     .subtitulo_seccion3
     {
-        margin-left: 28% !important;
-        margin-top: 10% !important;
-        margin-right: 18%;
-    
-
+        margin-left: 24% !important;    
     }
-
-
     .paragraph_seccion3{
-            font-family: 'Montserrat', sans-serif !important;
-
-            color: #526775;
-
-            margin-top: 4%;
-
-            font-size: 120%;
-
-            margin-right: 5%;
-
-            margin-left: 5%;
+        font-family: 'Montserrat', sans-serif !important;
+        color: #526775;
+        margin-top: 4%;
+        font-size: 120%;
+        margin-right: -2%;
     
     
     }
@@ -341,10 +305,9 @@
     .img_seccion3{
 
 
-        width: 20%;
+        width: 41%;
         align-self: center;
-        /* margin-left: 32%; */
-        margin: 0% 40%;
+        margin-left: 21%;
     }
 
 
@@ -358,21 +321,18 @@
     
     .column_seccion3{
     
-        align-content: center;
-        float: left;
-        width: 100%;
+    align-content: center;
+    float: left;
+    width: 100%;
+    margin-right: 51px;
     
     }
-
-
-
     .row_seccion3
     {
-        padding-top: 7%;
+        padding-top: 3%;
         align-content: center;
         width: 100%;
-        /* margin-left: 3%; */
-        margin: 0% 0% !important;
+        margin-left: 8%;
 
     
     }
@@ -385,9 +345,7 @@
         font-weight: 400;
         letter-spacing: 2px;
         font-size: 88%;
-        margin-left: 17%;
-        margin-right: 15%;
-        /* margin: 0% 32%;*/
+        margin-left: -16%;
     
     
     }
@@ -398,11 +356,21 @@
     
     .background_seccion4{
     
+        background-color: white !important;
 
+        background-image: url("../../SVG/Recurso\ 18.svg"),url("../../SVG/Recurso\ 14.svg"),url("../../SVG/Recurso\ 15.svg"),url("../../SVG/Recurso\ 16.svg"),url("../../SVG/Recurso\ 17.svg");
         
-        height: 1800px !important;
-        width: 100% !important;
-        margin-left: -15% !important;
+        background-repeat: no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
+        
+        background-position: -2% 1%, 115% 37%,30% 5%,65% 100%,90% 100%;
+        
+        background-size: 97%,28%,10%,10%,10%;
+        
+        height: 922px !important;
+        
+        margin-right: -27px !important;
+        
+        margin-left: -45px !important;
     
     }
     
@@ -420,90 +388,108 @@
     .title_seccion4
     {
         font-family: 'Montserrat', sans-serif !important;
-        font-size: 160% !important;
+
+        font-size: 123% !important;
+        
         color: white;
+        
         font-weight: 300;
-        margin-top: 106%;
-        margin-left: 4%;
-        margin-right: 31%;
-        margin-bottom: 13%;
+        
+        margin-top: 36%;
+        
+        margin-left: 3%;
+        
+        margin-top: 36%;
+        
+        margin-right: 5%;
     
     
     }
 
-    .column4
-    {
-
-        float: left;
-        width: 98% !important;
-        padding: 10px;
-        height: 400px;
-        margin-left: 13%;
-    }
     .row4{
 
-        margin-right: -66px !important;
-        margin-left: -15px !important;
+        margin-top: 28%;
     }
+    .column4{
 
-    .cards_column{
-
-        margin-top: 22% !important;
-
-        margin-left: -6%;
-
-    
+        width:100% !important;
     }
- 
     
     .card_number1
     {
         position: relative;
+
         background-color: white;
+        
         z-index: 2;
-        width: 400px;
-        height: 200px;
+        
+        width: 352px;
+        
+        height: 165px;
+        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
+        
         margin-left: 10%;
-        margin-top: 63%;
+        
+        margin-top: 11%;
         
     }
     
     .card_number2
     {
         position: relative;
+
         background-color: white;
+        
         z-index: 2;
-        width: 400px;
-        height: 200px;
+        
+        width: 348px;
+        
+        height: 165px;
+        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        margin-top: 4%;
-        margin-left: 48%; 
-    
+        
+        margin-left: 21%;
+        
+        margin-top: -8%;
     }
     
     .card_number3
     {
         position: relative;
+
         background-color: white;
+        
         z-index: 2;
-        width: 400px;
-        height: 200px;
+        
+        width: 349px;
+        
+        height: 165px;
+        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        margin-top: 3%;
+        
         margin-left: 10%;
+        
+        margin-top: 6%;
     }
     
     .card_number4
     {
         position: relative;
+
         background-color: white;
+        
         z-index: 2;
-        width: 400px;
-        height: 200px;
+        
+        width: 348px;
+        
+        height: 165px;
+        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        margin-top: 0%;
-        margin-left: 48%;
+        
+        margin-left: 22%;
+        
+        margin-top: 6%
     }
     
     .card_text
@@ -511,12 +497,11 @@
         margin-top: 6%;
         margin-left: 6px;
         color: #526775;
-        font-size: 110%;
-        font-family: 'Montserrat', sans-serif !important;
+        font-size: 80%;
+        font-family: 'Montserrat', sans-serif  !important;
         padding-top: 15%;
-        margin-left: 9%;
-        font-weight: 300;
-        margin-right: 7%;
+        margin-left: 6%;
+        font-weight: 300;  
     }
     
     .card_text_highlight
@@ -536,24 +521,14 @@
     .form_text
     {
         font-family: 'Montserrat', sans-serif !important;
-
         color: #041160;
-        
         margin-top: 4%;
-        
         font-weight: 500;
-        
-        font-size: 151%;
-        
+        font-size: 138%;
         position: absolute;
-        
         z-index: 4;
-        
-        margin-left: 9%;
-        
-        margin-top: 35%;
-        
-        margin-bottom: 19%;
+        margin-left: 14%;
+        margin-top: -2%;
     }
     
     .form_tittle
@@ -561,42 +536,28 @@
         font-family: 'Montserrat', sans-serif !important;
         color: #041160;
         font-weight: 500;
-        font-size: 108%;
+        font-size: 100%;
         position: absolute;
         z-index: 4;
-        margin-left: 10%;
-        margin-top: -31%;
+        margin-left: 13%;
+        margin-top: -33%;
     }
     
     .button_form{
-        height: 8%;
-
-        font-size: 18px !important;
-        
+        height: 7%;
+        font-size: 14px !important;
         background-color: #041160 !important;
-        
         border: none !important;
-        
         color: white !important;
-        
         text-decoration: none !important;
-        
-        margin: 16% 25% !important;
-        
+        margin: 9% 31% !important;
         cursor: pointer !important;
-        
         border-radius: 35px;
-        
-        padding: 1px 62px;
-        
+        padding: 1px 42px;
         box-shadow: 0px 0px 66px -12px rgba(108,82,240,0.89);
-        
         text-shadow: 1px 0;
-        
         position: absolute;
-        
         z-index: 4;
-    
     }
     
     
@@ -604,22 +565,26 @@
     {
         position: absolute;
         z-index: 4;
-        width: 300px;
         margin-left: 16%;
-        font-size: 180%;
+        font-size: 119%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
-        margin-top: -14%;
+        margin-top: -25%;
+        align-self: center;
+        width: 300px;
+    
+    
     }
     
     
     .cellphone_form::placeholder
-    {
+    {   
         letter-spacing: 2px;
         color: gray;
     
     }
+
 
 
     .name_form
@@ -627,9 +592,9 @@
         position: absolute;
         z-index: 4;
         margin-left: 16%;
-        font-size: 180%;
+        font-size: 119%;
         width: 300px;
-        margin-top: -2%;
+        margin-top: -17%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
@@ -640,7 +605,7 @@
     {
         letter-spacing: 2px;
         color: gray;
-        font-size:50%;
+        font-size:70%;
 
     }
     
@@ -669,27 +634,33 @@
     
     .background_seccion5
     {
-        max-height: 400px !important;
-        /*background: white;*/
-        min-height: 300px !important;
+        max-height:600px !important;
+        background: white
+    
+    
+      
         
     }
     
     
     .footer_gradient
     {
-        width: 721px;
-
         min-height: 400px !important;
-        
-        background: linear-gradient(312deg, rgba(91,59,255,1) 0%, rgba(46,198,236,1) 100%) !important;
-        
-        margin-left: 0% !important;
+        background: linear-gradient(312deg, rgba(91,59,255,1) 0%, rgba(46,198,236,1) 100%) !important; 
     }
-
-
     
-    
+
+    .card_form{
+        position: relative;
+        background-color: white;
+        z-index: 4;
+        width: 82%;
+        height: 330px;
+        box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
+        margin-left: 8%;
+        margin-top: 171%;
+
+    }
     .contact_form
     {
     
@@ -711,14 +682,13 @@
     
     
     .image_test {
-        width: 850px;
-        height: 707px;
-        margin-top: -69%;
-        margin-left: -8%;
+        width: 1500px;
+        height: 900px;
+        margin-top: -42%;
+        margin-left: 6%;
         z-index: 2;
         position: absolute;
         display: none;
-    
     }
     
     
@@ -726,25 +696,23 @@
     .column_footer
     {
         float: left;
-
-        width: 100%;
+        width: 87%;
     
     }
     
     .left_container
     {
     
-        margin-top: -10%;
-        margin-left: 9%;
-        margin-right: 34%;
     
+        margin-top: -10%; 
+        margin-left: 9%;
     }
     
     .column_footer_rigth
     {
     
         float: left;
-        width: 20%;
+        width: 100%;
         color: white;
         font-family: 'Montserrat', sans-serif  !important;
         font-weight: 300;
@@ -785,41 +753,32 @@
     .rigth_container
     {
     
-        margin-top: 23%;
-
-        margin-right: 0;
-        
+    
+        margin-top: 9%;
+        margin-left: 8%;
         font-size: 70%;
-        
-        margin-left: 43%;
-        
-        width: 600px
+    
     }
     
     .rigth_container_tittle
     {
 
-        font-size: 400%;
+        font-size: 300% !important;
     }
     .rigth_cotainer_list
     {
     
-        font-size: 200%;
-
+        font-size: 150%;
         font-weight: 300;
-        
-        margin-top: 6%;
-        
-        letter-spacing: 1px;
+        margin-top: 7%;
+        letter-spacing: 6px;
     
     }
     
     .img_footer
     {
-        width: 2%;
-
+        width: 4%;
         height: 4%;
-        
         display: inline;
     }
     
@@ -837,23 +796,19 @@
         display: inline;
         margin-left: 2%;
     }
-
-    .row_footer{
-
-        margin-top: 60%;
-
-    }
-
+    
     .horizontal-footer
     {
+
         width: 100%;
     }
 
-    .contacto_container
-    {
-        height: 300px !important;
-    }
 
+    .row_footer
+    {
+        margin-top: 38%;
+
+    }
 
 
 
@@ -862,29 +817,9 @@
         font-family: 'Montserrat', sans-serif !important;
         margin-left: 26%;
         color: #041160;
-        font-size: 85%;
+        font-size: 80%;
         font-weight: 500;
         text-decoration: none!important; 
-    
-    }
-
-    .card_form{
-        position: relative;
-
-        background-color: white;
-        
-        z-index: 4;
-        
-        width: 92%;
-        
-        height: 29%;
-        
-        box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-left: 20%;
-        
-        margin-top: 231%;
-
-    }
-
+    } 
+   
 }
