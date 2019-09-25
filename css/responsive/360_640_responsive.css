@@ -202,15 +202,10 @@
       /* Style the counter cards */
     
       .img_card{
-        
-        padding-left: 8%;
-
+        padding-left: 14%;
         border: none !important;
-        
         border-radius: 25px;
-        
         height: 221px;
-        
         width: 250px;
     }
     .img_number
@@ -229,7 +224,7 @@
         position: absolute;
         align-content: center;
         top: 36%;
-        right: 31%;
+        right: 29%;
     
     }
 
