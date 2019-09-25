@@ -544,13 +544,13 @@
     }
     
     .button_form{
-        height: 7%;
+        height: 6%;
         font-size: 14px !important;
         background-color: #041160 !important;
         border: none !important;
         color: white !important;
         text-decoration: none !important;
-        margin: 9% 31% !important;
+        margin: 8% 31% !important;
         cursor: pointer !important;
         border-radius: 35px;
         padding: 1px 42px;
