@@ -1,4 +1,4 @@
-@media only screen and (min-width:361px) and  (max-width:375px) 
+@media only screen and (min-width:361px) and  (max-width:379px) 
 {
 
 
@@ -673,20 +673,13 @@
 
     .card_form{
         position: relative;
-
         background-color: white;
-        
         z-index: 4;
-        
         width: 300px;
-        
-        height: 300px;
-        
+        height: 320px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
         margin-left: 10%;
-        
-        margin-top: 167%;
+        margin-top: 161%;
 
     }
     .contact_form
