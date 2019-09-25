@@ -224,7 +224,9 @@
         position: absolute;
         align-content: center;
         top: 36%;
-        right: 29%;
+        right: 30%;
+        left: 26%;
+    
     
     }
 
@@ -250,7 +252,7 @@
         display: none;
     }
     .img_text{
-        font-size: 128%;
+        font-size: 106%;
         color: white !important;
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 100;
