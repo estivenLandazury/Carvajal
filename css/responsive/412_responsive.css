@@ -28,6 +28,7 @@
     .navbar li {
     
         padding: 0px 30px !important;
+        display: block !important;
     }
     .navbar li a{
     
