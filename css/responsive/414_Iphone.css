@@ -724,6 +724,7 @@
         font-weight: 340;
         font-size: 110%;
         letter-spacing: 1px;
+        margin-right: 4%;
     }
     
     
@@ -792,6 +793,7 @@
     .row_footer
     {
         margin-top: 58%;
+        margin-left: 7%;
     }
 
 
