@@ -1,5 +1,18 @@
 @media only screen  and (max-width:413px) and (min-width:380px)
 {
+    html{
+        overflow-x: hidden !important;
+    }
+
+
+
+
+    body{
+        margin: 0 0 0 0 !important;
+
+
+    }
+
 
 
     .logo{
@@ -64,9 +77,7 @@
     
     .row_movile
     {
-        margin-right: -39px;
-        margin-left: -45px;
-        margin-top: 28% !important;
+        margin-top: 24% !important;
     } 
 
     .row:after {
@@ -212,12 +223,14 @@
       /* Style the counter cards */
     
       .img_card{
-        padding-left: 19%;
+        padding-left: 13%;
         border: none !important;
         border-radius: 25px;
         height: 280px;
         width: 266px;
+        margin-left: 10%;
     }
+
     .img_number
     {
         position: absolute;
@@ -291,15 +304,17 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 20% !important;
-
+        margin-left: 27% !important;
+        margin-right: 20%;
+    
     }
     .paragraph_seccion3{
         font-family: 'Montserrat', sans-serif !important;
         color: #526775;
-        margin-top: 4%; 
-        font-size: 120%; 
-        margin-right: 7%;   
+        margin-top: 4%;
+        font-size: 120%;
+        margin-right: 4%;
+        margin-left: 4%; 
     
     
     }
@@ -308,10 +323,8 @@
 
 
         width: 35%;
-
         align-self: center;
-        
-        margin-left: 29%;
+        margin-left: 32%;
     }
 
 
@@ -391,19 +404,12 @@
     .title_seccion4
     {
         font-family: 'Montserrat', sans-serif !important;
-
         font-size: 123% !important;
-        
         color: white;
-        
         font-weight: 300;
-        
         margin-top: 36%;
-        
-        margin-left: 3%;
-        
+        margin-left: 14%;
         margin-top: 36%;
-        
         margin-right: 5%;
     
     
@@ -421,19 +427,12 @@
     .card_number1
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
         width: 352px;
-        
         height: 165px;
-        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-left: 10%;
-        
+        margin-left: 15%;
         margin-top: 11%;
         
     }
@@ -441,58 +440,37 @@
     .card_number2
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
         width: 348px;
-        
         height: 165px;
-        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-left: 21%;
-        
+        margin-left: 31%;
         margin-top: -8%;
     }
     
     .card_number3
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
         width: 349px;
-        
         height: 165px;
-        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-left: 10%;
-        
+        margin-left: 15%;
         margin-top: 6%;
     }
     
     .card_number4
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
         width: 348px;
-        
         height: 165px;
-        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-left: 22%;
-        
-        margin-top: 6%
+        margin-left: 30%;
+        margin-top: 6%;
     }
     
     .card_text
