@@ -1,7 +1,18 @@
 @media only screen  and (max-width:419px) and (min-width:414px)
 {
 
+    html{
+        overflow-x: hidden !important;
+    }
 
+
+
+
+    body{
+        margin: 0 0 0 0 !important;
+
+
+    }
 
     .logo{
 
@@ -66,9 +77,8 @@
     
     .row_movile
     {
-        margin-right: -39px;
-        margin-left: -45px;
-        margin-top: 27% !important;
+  
+        margin-top: 22% !important;
     } 
 
     .row:after {
@@ -214,12 +224,16 @@
       /* Style the counter cards */
     
       .img_card{
-        padding-left: 19%;
+        padding-left: 17%;
         border: none !important;
         border-radius: 25px;
         height: 280px;
         width: 266px;
+        margin-left: 12%;
+    
+    
     }
+
     .img_number
     {
         position: absolute;
@@ -291,14 +305,15 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 24% !important;    
+        margin-left:27% !important;
     }
     .paragraph_seccion3{
         font-family: 'Montserrat', sans-serif !important;
         color: #526775;
         margin-top: 4%;
         font-size: 120%;
-        margin-right: -2%;
+        margin-right: 5%;
+        margin-left: 4%;
     
     
     }
@@ -306,9 +321,11 @@
     .img_seccion3{
 
 
-        width: 41%;
+        width: 33%;
         align-self: center;
-        margin-left: 21%;
+        margin-left: 26%;
+    
+    
     }
 
 
@@ -346,7 +363,7 @@
         font-weight: 400;
         letter-spacing: 2px;
         font-size: 88%;
-        margin-left: -16%;
+        margin-left: -12%;
     
     
     }
@@ -389,19 +406,12 @@
     .title_seccion4
     {
         font-family: 'Montserrat', sans-serif !important;
-
         font-size: 123% !important;
-        
         color: white;
-        
         font-weight: 300;
-        
         margin-top: 36%;
-        
-        margin-left: 3%;
-        
+        margin-left: 13%;
         margin-top: 36%;
-        
         margin-right: 5%;
     
     
@@ -419,19 +429,12 @@
     .card_number1
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
         width: 352px;
-        
         height: 165px;
-        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-left: 10%;
-        
+        margin-left: 18%;
         margin-top: 11%;
         
     }
@@ -439,58 +442,37 @@
     .card_number2
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
         width: 348px;
-        
         height: 165px;
-        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-left: 21%;
-        
+        margin-left: 38%;
         margin-top: -8%;
     }
     
     .card_number3
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
         width: 349px;
-        
         height: 165px;
-        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-left: 10%;
-        
-        margin-top: 6%;
+        margin-left: 18%;
+        margin-top: 8%;
     }
     
     .card_number4
     {
         position: relative;
-
         background-color: white;
-        
         z-index: 2;
-        
         width: 348px;
-        
         height: 165px;
-        
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-left: 22%;
-        
-        margin-top: 6%
+        margin-left: 38%;
+        margin-top: 6%;
     }
     
     .card_text
@@ -528,27 +510,21 @@
         font-size: 138%;
         position: absolute;
         z-index: 4;
-        margin-left: 14%;
-        margin-top: -25%;
+        margin-left: 24%;
+        margin-top: 14%;
+    
     }
     
     .form_tittle
     {
         font-family: 'Montserrat', sans-serif !important;
-
         color: #041160;
-        
         font-weight: 500;
-        
         font-size: 100%;
-        
         position: absolute;
-        
         z-index: 4;
-        
-        margin-left: 13%;
-        
-        margin-top: -61%;
+        margin-left: 24%;
+        margin-top: -29%;
     }
     
     .button_form{
@@ -558,7 +534,7 @@
         border: none !important;
         color: white !important;
         text-decoration: none !important;
-        margin: -14% 31% !important;
+        margin: 26% 42% !important;
         cursor: pointer !important;
         border-radius: 35px;
         padding: 1px 42px;
@@ -573,14 +549,15 @@
     {
         position: absolute;
         z-index: 4;
-        margin-left: 16%;
+        margin-left: 26%;
         font-size: 119%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
-        margin-top: -49%;
+        margin-top: -11%;
         align-self: center;
         width: 300px;
+    
     
     
     }
@@ -599,10 +576,10 @@
     {
         position: absolute;
         z-index: 4;
-        margin-left: 16%;
+        margin-left: 26%;
         font-size: 119%;
         width: 300px;
-        margin-top: -39%;
+        margin-top: 1%;
         text-align: center;
         border: none;
         border-bottom: 4px solid #041160;
@@ -660,20 +637,13 @@
 
     .card_form{
         position: relative;
-
         background-color: white;
-        
         z-index: 4;
-        
         width: 348px;
-        
-        height: 300px;
-        
+        height: 320px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
-        
-        margin-left: 8%;
-        
-        margin-top: 167%;
+        margin-left: 15%;
+        margin-top: 166%;
 
     }
     .contact_form
@@ -821,7 +791,7 @@
 
     .row_footer
     {
-        margin-top: 16%;
+        margin-top: 58%;
     }
 
 
