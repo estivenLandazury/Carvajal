@@ -70,9 +70,7 @@
     .row_movile
     {
 
-        margin-right: -15px;
-        margin-left: -45px;
-        margin-top: 30% !important;
+         margin-top: 28% !important;
     } 
 
     .row:after {
@@ -216,11 +214,12 @@
     
       .img_card{
         
-        padding-left: 15%;
+
         border: none !important;
         border-radius: 25px;
-        height: 221px;
-        width: 250px;
+        height: 226px;
+        width: 241px;
+        margin-left: 17%;
     }
     .img_number
     {
