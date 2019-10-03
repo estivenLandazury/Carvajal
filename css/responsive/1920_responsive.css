@@ -276,7 +276,7 @@
 
 
       .img_text{
-        font-size: 200%;
+        font-size: 190%;
         color: white !important;
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 100;
@@ -294,6 +294,13 @@
         background-size: 21%, 15%, 9%;
         */
         height: 1000px !important;
+    
+    }
+
+    .subtitulo_seccion3
+    {
+        margin-left: 39% !important;
+        margin-right: 10%;
     
     }
     

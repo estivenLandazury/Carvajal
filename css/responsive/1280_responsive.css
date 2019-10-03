@@ -8,7 +8,7 @@
     }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
-        width: 72%;
+        width: 73%;
         margin-top: 9px;
     
     }
@@ -173,11 +173,11 @@
     .solucion_subtitulo
     {
         font-size: 300% !important;
-        color: #041160; /* Temporal */ 
+        color: #041160;
         font-weight: bolder;
         text-shadow: 2px 0;
-        letter-spacing:1px;
-        margin-left:45%; 
+        letter-spacing: 1px;
+        margin-left: 43%;
         margin-top: 10%;
     
     }
@@ -304,13 +304,19 @@
         width: auto;
         
     }
+
+    .subtitulo_seccion3
+   {
+    margin-left: 37% !important;
+
+   } 
     
     .paragraph_seccion3{
         
         font-family: 'Montserrat', sans-serif !important;
         color: #526775;
         margin-top: 4%;
-        margin-left: 7%;
+        margin-left: 3%;
     
     
     }

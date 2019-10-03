@@ -10,8 +10,9 @@
     }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
-        width: 63%;
-        margin-top: 9px
+        width: 68%;
+        margin-top: 9px;
+    
     }
     
     .logo{
@@ -169,7 +170,7 @@
         font-weight: bolder;
         text-shadow: 2px 0;
         letter-spacing: 1px;
-        margin-left: 40% !important ;
+        margin-left: 37% !important;
         margin-top: 10%;
     
     }
@@ -178,7 +179,8 @@
     .solucion_subtitulo_1
     {
 
-        margin-left: 41% !important;
+        margin-left: 42% !important;
+
  
     
     }

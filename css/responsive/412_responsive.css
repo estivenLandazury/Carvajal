@@ -182,10 +182,10 @@
     {
         font-size: 150% !important;
         color: #041160;
-        font-weight: 400;
-        text-shadow: 2px 0;
+        font-weight: 600;
+        /* text-shadow: 2px 0; */
         letter-spacing: 1px;
-        margin-left: 31%;
+        margin-left: 35%;
         margin-top: 9%;
     
     }

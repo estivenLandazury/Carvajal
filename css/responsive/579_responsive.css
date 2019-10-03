@@ -260,7 +260,7 @@
         position: absolute;
         align-content: center;
         top: 36%;
-        right: 29%;
+        right: 28%;
     
     }
 
@@ -313,24 +313,20 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 37% !important;
+        margin-left: 35% !important;
         margin-top: 10% !important;
 
     }
 
 
     .paragraph_seccion3{
-            font-family: 'Montserrat', sans-serif !important;
-
-            color: #526775;
-
-            margin-top: 4%;
-
-            font-size: 120%;
-
-            margin-right: 5%;
-
-            margin-left: 5%;
+        font-family: 'Montserrat', sans-serif !important;
+        color: #526775;
+        margin-top: 4%;
+        font-size: 120%;
+        margin-right: 5%;
+        margin-left: 7%;
+    
     
     
     }

@@ -274,7 +274,7 @@
 
 
       .img_text{
-        font-size: 221%;
+        font-size: 200%;
         color: white !important;
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 100;
@@ -283,6 +283,15 @@
     /*Fin la sección 2 */
     
     /*Inicio sección 3*/
+
+
+    .subtitulo_seccion3
+    {
+        margin-left: 39% !important;
+        margin-right: 10%;
+    
+    }
+    
     .background_seccion3{
     
         

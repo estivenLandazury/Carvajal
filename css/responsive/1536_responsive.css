@@ -291,6 +291,16 @@
     /*Fin la sección 2 */
     
     /*Inicio sección 3*/
+
+
+    .subtitulo_seccion3
+    {
+        margin-left: 38% !important;
+        margin-right: 10%;
+    
+    }
+
+
     .background_seccion3{
        /*
         background-color: white !important;

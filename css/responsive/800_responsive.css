@@ -184,17 +184,11 @@
     .solucion_subtitulo
     {
         font-size: 300% !important;
-
         color: #041160;
-        
         font-weight: bolder;
-        
-        text-shadow: 2px 0;
-        
+        /* text-shadow: 2px 0; */
         letter-spacing: 1px;
-        
         margin-top: 10%;
-
         margin-left: 41%;
     
     }

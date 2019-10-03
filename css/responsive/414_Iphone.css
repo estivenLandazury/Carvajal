@@ -185,7 +185,7 @@
         font-weight: 400;
         /* text-shadow: 2px 0; */
         letter-spacing: 1px;
-        margin-left: 31%;
+        margin-left: 38%;
         margin-top: 9%;
         font-weight: 700;
     
@@ -481,10 +481,11 @@
         margin-left: 6px;
         color: #526775;
         font-size: 80%;
-        font-family: 'Montserrat', sans-serif  !important;
+        font-family: 'Montserrat', sans-serif !important;
         padding-top: 15%;
         margin-left: 6%;
-        font-weight: 300;  
+        font-weight: 300;
+        margin-right: 3%;
     }
     
     .card_text_highlight
