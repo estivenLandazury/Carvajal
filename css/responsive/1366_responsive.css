@@ -10,7 +10,7 @@
     }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
-        width: 70%;
+        width: 63%;
         margin-top: 9px
     }
     
@@ -169,7 +169,7 @@
         font-weight: bolder;
         text-shadow: 2px 0;
         letter-spacing: 1px;
-        margin-left: 35% !important ;
+        margin-left: 40% !important ;
         margin-top: 10%;
     
     }
@@ -276,7 +276,7 @@
     }
 
     .img_text{
-        font-size: 170%;
+        font-size: 160%;
         color: white !important;
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 100;
