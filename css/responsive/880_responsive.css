@@ -13,7 +13,7 @@
     }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
-        width: 67%;
+        width: 73%;
         margin-top: 9px;
     }
     
@@ -33,12 +33,12 @@
     
     .navbar li {
     
-        padding: 0 2% !important;
+        padding: 0 4px !important;
     }
     .navbar li a{
     
         color: #041160 !important;
-        font-size: 12px !important;
+        font-size: 16px !important;
         text-shadow: 1px 0;
     
     }

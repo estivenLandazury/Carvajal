@@ -27,6 +27,7 @@
     .navbar li {
     
         padding: 0px 30px !important;
+        margin-top: 1% !important;
     }
     .navbar li a{
     
@@ -132,6 +133,10 @@
         margin-top: 17%;
     }
     
+    .row_seccion1
+    {
+        width: 104% !important;
+    }
     /*Fin la sección 1 */
     
     
@@ -601,6 +606,7 @@
     {
         min-height: 400px !important;
         background: linear-gradient(312deg, rgba(91,59,255,1) 0%, rgba(46,198,236,1) 100%) !important; 
+        width: 103% !important;
     }
     
     .contact_form

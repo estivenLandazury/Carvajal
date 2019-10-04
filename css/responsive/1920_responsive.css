@@ -625,7 +625,9 @@
     .footer_gradient
     {
         min-height: 400px !important;
-        background: linear-gradient(312deg, rgba(91,59,255,1) 0%, rgba(46,198,236,1) 100%) !important; 
+        background: linear-gradient(312deg, rgba(91,59,255,1) 0%, rgba(46,198,236,1) 100%) !important;
+        width: 101%;
+        
     }
     
     .contact_form
