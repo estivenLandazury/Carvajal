@@ -46,6 +46,10 @@
         text-shadow: 1px 0;
     
     }
+    .navbar li a img {
+        width: 35px;
+        margin-top: -8px;
+    }
     .button_navbar{
         font-size: 20px ! important;
         background-color:#041160 !important; 

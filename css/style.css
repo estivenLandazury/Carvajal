@@ -65,6 +65,13 @@ body{
     text-shadow: 1px 0;
 
 }
+
+.navbar li a img{
+
+    width: 35px;
+    margin-top: -9px;
+
+}
 .button_navbar{
     margin-top: 10px !important;
     font-size: 23px ! important;

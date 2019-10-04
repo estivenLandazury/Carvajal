@@ -11,7 +11,7 @@
 
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
-        width: 63%;
+        width: 60%;
         margin-top: 9px;
     }
 
@@ -39,6 +39,10 @@
         font-size: 23px !important;
         text-shadow: 1px 0;
     
+    }
+    .navbar li a img {
+        width: 35px;
+        margin-top: -8px;
     }
     .button_navbar{
         font-size: 20px ! important;
