@@ -273,13 +273,13 @@
     .img_number
     {
         position: absolute;
-        font-size: 284%;
+        font-size: 250%;
         color: white !important;
         font-family: 'Montserrat', sans-serif !important;
         font-weight: 800;
         top: -113%;
         right: 5%;
-        left: 90%;
+        left: 90%
     }
     
     .img_container
