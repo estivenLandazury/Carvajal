@@ -516,6 +516,8 @@
         z-index: 4;
         margin-left: 23%;
         margin-top: 20%;
+        margin-right: 15%;
+
     
     }
     
@@ -532,13 +534,13 @@
     }
     
     .button_form{
-        height: 7%;
+        height: 5%;
         font-size: 14px !important;
         background-color: #041160 !important;
         border: none !important;
         color: white !important;
         text-decoration: none !important;
-        margin: 31% 43% !important;
+        margin: 35% 43% !important;
         cursor: pointer !important;
         border-radius: 35px;
         padding: 1px 42px;
@@ -642,7 +644,7 @@
         background-color: white;
         z-index: 4;
         width: 77%;
-        height: 339px;
+        height: 350px;
         box-shadow: 0px 0px 36px -2px rgba(153,147,153,0.82);
         margin-left: 13%;
         margin-top: 177%;
