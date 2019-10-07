@@ -171,7 +171,7 @@
     
     .solucion_titulo{
             
-        font-size: 150% !important;
+        font-size: 200% !important;
 
         color: #338BFF;
         
@@ -189,7 +189,7 @@
 
     .solucion_subtitulo
     {
-        font-size: 150% !important;
+        font-size: 187% !important;
         color: #041160;
         font-weight: 600;
         letter-spacing: 1px;
@@ -315,8 +315,8 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 36% !important;
-        margin-top: 10% !important;
+        margin-left: 32% !important;
+        margin-top: 14% !important;
 
     }
 
@@ -383,10 +383,10 @@
         margin-top: 4%;
         font-weight: 400;
         letter-spacing: 2px;
-        font-size: 88%;
+        font-size: 100%;
         margin-left: 17%;
         margin-right: 15%;
-        /* margin: 0% 32%;*/
+     
     
     
     }
