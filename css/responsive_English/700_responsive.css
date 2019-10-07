@@ -172,7 +172,7 @@
     
     .solucion_titulo{
             
-        font-size: 150% !important;
+        font-size: 200% !important;
 
         color: #338BFF;
         
@@ -190,7 +190,7 @@
 
     .solucion_subtitulo
     {
-        font-size: 150% !important;
+        font-size: 200% !important;
         color: #041160;
         font-weight: 600;
         letter-spacing: 1px;
@@ -316,7 +316,7 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 37% !important;
+        margin-left: 36% !important;
         margin-top: 10% !important;
 
     }
@@ -384,10 +384,11 @@
         margin-top: 4%;
         font-weight: 400;
         letter-spacing: 2px;
-        font-size: 88%;
-        margin-left: 17%;
+        font-size: 110%;
+        margin-left: 16%;
         margin-right: 15%;
-        /* margin: 0% 32%;*/
+        /* margin: 0% 32%; */
+    
     
     
     }

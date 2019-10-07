@@ -12,7 +12,7 @@
     }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
-        width: 59%;
+        width: 62%;
         margin-top: 9px;
     }
     
@@ -200,7 +200,8 @@
     .subtitulo_seccion3
     {
 
-        margin-left: 33% !important;
+        margin-left: 37% !important;
+
     }
 
 
@@ -233,8 +234,7 @@
 
 
         margin: 0 -1px;
-        margin-right: 0%;
-        margin-left: 3%
+        margin-right: 3%;
 
       }
       
@@ -375,6 +375,7 @@
         align-content: center;
         
         width: 100%;
+        margin-left: 3% !important;
         
     
     }
@@ -386,7 +387,7 @@
         margin-top: 4%;
         font-weight: 400;
         letter-spacing: 2px;
-        font-size: 20px;
+        font-size: 21px;
     
     }
     .img_seccion3
@@ -588,10 +589,10 @@
         font-family: 'Montserrat', sans-serif !important;
         color: #041160;
         font-weight: 500;
-        font-size: 200%;
+        font-size: 177%;
         position: absolute;
         z-index: 4;
-        margin-left: 57%;
+        margin-left: 59%;
         margin-top: -41%;
     }
 

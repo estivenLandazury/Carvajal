@@ -307,7 +307,7 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 30% !important;
+        margin-left: 35% !important;
         margin-right: 20% !important;
     }
     .paragraph_seccion3{
@@ -363,10 +363,8 @@
         margin-top: 4%;
         font-weight: 400;
         letter-spacing: 2px;
-        font-size: 88%;
-        margin-left: -16%;
-    
-    
+        font-size: 100%;
+        margin-left: -16%;    
     }
     
     /*Fin seccion3*/

@@ -13,7 +13,7 @@
     }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
-        width: 61%;
+        width: 65%;
         margin-top: 9px;
     }
     
@@ -195,7 +195,7 @@
         /* text-shadow: 2px 0; */
         letter-spacing: 1px;
         margin-top: 10%;
-        margin-left: 41%;
+        margin-left: 37%;
     
     }
 
@@ -203,7 +203,8 @@
     .subtitulo_seccion3
     {
 
-        margin-left: 32% !important;
+        margin-left: 35% !important;
+
 
 
     }

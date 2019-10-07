@@ -308,7 +308,7 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 27% !important;
+        margin-left: 28% !important;
         margin-right: 20%;
     
     }
@@ -360,12 +360,14 @@
     
     
     .title_seccion3{
-        font-family: 'Montserrat', sans-serif  !important;
+        font-family: 'Montserrat', sans-serif !important;
         color: #041160;
-        margin-top: 4%; 
+        margin-top: 4%;
         font-weight: 400;
         letter-spacing: 2px;
         font-size: 81%;
+        margin-left: 2%;
+    
     
     
     }

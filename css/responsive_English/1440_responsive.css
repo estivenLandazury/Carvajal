@@ -11,8 +11,8 @@
     }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
-        width: 65%;
-        margin-top: 9px;
+        width: 58%;
+        margin-top: 9px;    
     }
     
     .logo{
@@ -288,7 +288,7 @@
     /*Inicio sección 3*/
 
     .subtitulo_seccion3{
-        margin-left: 38% !important;
+        margin-left: 40% !important;
         margin-right: 10%;
     }
     .background_seccion3{

@@ -309,7 +309,7 @@
     
     .subtitulo_seccion3
     {
-        margin-left:27% !important;
+        margin-left: 29% !important;
     }
     .paragraph_seccion3{
         font-family: 'Montserrat', sans-serif !important;
@@ -325,9 +325,10 @@
     .img_seccion3{
 
 
-        width: 33%;
+        width: 32%;
         align-self: center;
-        margin-left: 26%;
+        margin-left: 28%;
+    
     
     
     }

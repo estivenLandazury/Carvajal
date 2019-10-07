@@ -10,7 +10,7 @@
     }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
-        width: 58%;
+        width: 62%;
         margin-top: 9px;
     }
     
@@ -200,7 +200,8 @@
     .subtitulo_seccion3
     {
 
-       margin-left:  34% !important
+        margin-left: 37% !important;
+
     }
 
 
@@ -385,7 +386,7 @@
         margin-top: 4%;
         font-weight: 400;
         letter-spacing: 2px;
-        font-size: 20px;
+        font-size: 21px;
     
     }
     .img_seccion3

@@ -5,7 +5,7 @@
 
         background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg) !important;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
-        background-position: 10% 19%, 38% 26%,71% 27%,0% 31%,19% 37%,75% 41%,0% 69%, 113% 67%,35% 56%,64% 73%,88% 74%;
+        background-position: 10% 19%, 38% 26%,71% 24%,0% 31%,19% 37%,75% 41%,0% 69%, 113% 67%,35% 56%,64% 73%,88% 74%;
         background-size: 14%,10%,10%,20%,15%,10%,45%,28%,10%,10%,10%;
     
     }
@@ -305,7 +305,7 @@
 
     .subtitulo_seccion3
     {
-        margin-left: 39% !important;
+        margin-left: 42% !important;
         margin-right: 10%;
     
     }
@@ -344,11 +344,12 @@
     
     
     .title_seccion3{
-        font-family: 'Montserrat', sans-serif  !important;
+        font-family: 'Montserrat', sans-serif !important;
         color: #041160;
-        margin-top: 4%; 
+        margin-top: 4%;
         font-weight: 400;
         letter-spacing: 2px;
+        font-size: 30px;
     
     
     }

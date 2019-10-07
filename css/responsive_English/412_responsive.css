@@ -308,7 +308,7 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 27% !important;
+        margin-left: 33% !important;
         margin-right: 20%;
     
     }
@@ -328,7 +328,7 @@
 
         width: 31%;
         align-self: center;
-        margin-left: 35%;
+        margin-left: 36%;
     }
 
 
@@ -360,12 +360,14 @@
     
     
     .title_seccion3{
-        font-family: 'Montserrat', sans-serif  !important;
+        font-family: 'Montserrat', sans-serif !important;
         color: #041160;
-        margin-top: 4%; 
+        margin-top: 4%;
         font-weight: 400;
         letter-spacing: 2px;
-        font-size: 81%;
+        font-size: 100%;
+        margin-left: 4%;
+    
     
     
     }
@@ -414,7 +416,7 @@
         margin-top: 36%;
         margin-left: 14%;
         margin-top: 36%;
-        margin-right: 5%;
+        margin-right: 7%;
     
     
     }

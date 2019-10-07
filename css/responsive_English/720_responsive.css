@@ -173,7 +173,7 @@
     
     .solucion_titulo{
             
-        font-size: 150% !important;
+        font-size: 210% !important;
 
         color: #338BFF;
         
@@ -191,11 +191,11 @@
 
     .solucion_subtitulo
     {
-        font-size: 150% !important;
+        font-size: 200% !important;
         color: #041160;
         font-weight: 600;
         letter-spacing: 1px;
-        margin-left: 41%;
+        margin-left: 39%;
         margin-top: 9%;
     
     }
@@ -317,7 +317,7 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 37% !important;
+        margin-left: 38% !important;
         margin-top: 10% !important;
 
     }
@@ -342,10 +342,10 @@
     .img_seccion3{
 
 
-        width: 20%;
+        width: 17%;
         align-self: center;
         /* margin-left: 32%; */
-        margin: 0% 40%;
+        margin: 0% 42%;
     }
 
 
@@ -385,10 +385,9 @@
         margin-top: 4%;
         font-weight: 400;
         letter-spacing: 2px;
-        font-size: 88%;
+        font-size: 110%;
         margin-left: 17%;
         margin-right: 15%;
-        /* margin: 0% 32%;*/
     
     
     }
@@ -424,7 +423,7 @@
         font-size: 187% !important;
         color: white;
         font-weight: 300;
-        margin-top: 60%;
+        margin-top: 64%;
         margin-left: 4%;
         margin-right: 37%;
         margin-bottom: 13%;

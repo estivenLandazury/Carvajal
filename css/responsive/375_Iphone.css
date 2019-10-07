@@ -295,7 +295,7 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 26% !important;
+        margin-left: 25% !important;
         margin-right: 20% !important;
 
     }
@@ -323,7 +323,8 @@
 
         width: 33%;
         align-self: center;
-        margin-left: 32%;
+        margin-left: 33%;
+    
     
     }
     
@@ -353,7 +354,7 @@
         font-weight: 400;
         letter-spacing: 2px;
         font-size: 81%;
-        margin-right: 3%;
+        margin-right: -1%;
     
     
     }

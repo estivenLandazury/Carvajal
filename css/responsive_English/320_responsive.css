@@ -303,7 +303,7 @@
     
     .subtitulo_seccion3
     {
-        margin-left: 21% !important;
+        margin-left: 28% !important;
         margin-right: 10% !important;
     }
     .paragraph_seccion3{
@@ -348,8 +348,8 @@
         margin-top: 4%;
         font-weight: 400;
         letter-spacing: 2px;
-        font-size: 77%;
-        margin-left: -1%;
+        font-size: 90%;
+        margin-left: 2%;
     
     
     }
@@ -510,6 +510,7 @@
         z-index: 4;
         margin-left: 20%;
         margin-top: -2%;
+        margin-right: 5%;
     
     }
     
@@ -526,13 +527,13 @@
     }
     
     .button_form{
-        height: 7%;
+        height: 4%;
         font-size: 14px !important;
         background-color: #041160 !important;
         border: none !important;
         color: white !important;
         text-decoration: none !important;
-        margin: 9% 38% !important;
+        margin: 16% 38% !important;
         cursor: pointer !important;
         border-radius: 35px;
         padding: 1px 42px;
@@ -709,6 +710,7 @@
         font-weight: 300;
         font-size: 250%;
         letter-spacing: 1px;
+        margin-right: 2%
     
     }
     

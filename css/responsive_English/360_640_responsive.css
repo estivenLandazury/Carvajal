@@ -507,6 +507,7 @@
         z-index: 4;
         margin-left: 19%;
         margin-top: -10%;
+        margin-right: 5%;
     
     
     }
@@ -524,13 +525,13 @@
     }
     
     .button_form{
-        height: 7%;
+        height: 3%;
         font-size: 14px !important;
         background-color: #041160 !important;
         border: none !important;
         color: white !important;
         text-decoration: none !important;
-        margin: 3% 41% !important;
+        margin: 9% 41% !important;
         cursor: pointer !important;
         border-radius: 35px;
         padding: 1px 42px;
