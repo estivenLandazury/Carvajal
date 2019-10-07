@@ -92,11 +92,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right text-center navbar">
-                        <li><a id="Home" href="#home" title="Boton de navegacion al home">Home</a></li>
-                        <li><a id="Que_es" href="#Que_es" title="Boton de navegacion a ¿Que_es?">¿Qué es?</a></li>
-                        <li><a id="solucion" href="#solucion" title="Boton de navegacion a Solución">Solución</a></li>
-                        <li><a id="nosotros" href="#nosotros" title="Boton de navegacion  a Nosotros">¿Por qué?</a></li>
-                        <li class="button_navbar"><a id="contacto" href="#contacto" title="Boton de navegacion al contacto "> <div style="color:white !important;" >Contáctenos</div></a></li>
+                        <li><a id="Home" href="#home" title="Boton de navegacion al home" data-toggle="collapse" data-target=".navbar-collapse">Home</a></li>
+                        <li><a id="Que_esB" href="#Que_es" title="Boton de navegacion a ¿Que_es?" data-toggle="collapse" data-target=".navbar-collapse">¿Qué es?</a></li>
+                        <li><a id="solucionB" href="#solucion" title="Boton de navegacion a Solución" data-toggle="collapse" data-target=".navbar-collapse">Solución</a></li>
+                        <li><a id="nosotrosB" href="#nosotros" title="Boton de navegacion  a Nosotros" data-toggle="collapse" data-target=".navbar-collapse">¿Por qué?</a></li>
+                        <li class="button_navbar"><a id="contactoB" href="#contacto" title="Boton de navegacion al contacto " data-toggle="collapse" data-target=".navbar-collapse"> <div style="color:white !important;" >Contáctenos</div></a></li>
                         <li> <a href="./index_English.html"><img src="./imgNew/flag.svg" alt="USA_flag"></a></li>
                     </ul>
 
@@ -613,7 +613,7 @@
 
 
     document.getElementById('sendInfo').addEventListener('click', restCall);
-
+    
 
     function restCall()
     {
