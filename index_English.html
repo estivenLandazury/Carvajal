@@ -3,8 +3,8 @@
 
 <head>
 
-<!--
 
+    <!--
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148778408-1"></script>
         <script>
@@ -16,6 +16,8 @@
         </script>
 
     -->
+
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
@@ -52,7 +54,7 @@
     <link rel="stylesheet" href="css/responsive_English/1536_responsive.css" media="screen" type="text/css">
     <link rel="stylesheet" href="css/responsive_English/1600_900_responsive.css" media="screen" type="text/css">
     <link rel="stylesheet" href="css/responsive_English/1920_responsive.css" media="screen" type="text/css">
-    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="css/styleEnglish.css" media="screen" type="text/css">
 
 
 
@@ -617,7 +619,7 @@
 <script>
 
     document.getElementById('sendInfo').addEventListener('click', restCall);
-    document.getElementById('sendInfo').addEventListener('click', restCall);
+    
     function restCall()
     {
     var name = document.getElementById("name").value;
@@ -625,7 +627,6 @@
 
 
 
-    document.getElementById("Contact_form").reset();
 
     
     let Data=
@@ -654,7 +655,8 @@
         fetch('https://0gqxxhb0wb.execute-api.us-east-1.amazonaws.com/Prod/send/',options)
                 .then(function(response) {
                 
-                
+                document.getElementById("Contact_form").reset();
+
                  $("#myModal").modal()
                 
 
