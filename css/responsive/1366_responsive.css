@@ -1,12 +1,11 @@
 @media only screen  and (max-width:1439px) and (min-width:1366px)
 {
 
-    body{
-
-        background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg) !important;
-        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
-        background-position: 10% 19%, 38% 26%,71% 25%,0% 31%,19% 37%,75% 39%,0% 68%, 113% 67%,35% 56%,64% 76%,88% 75%;
-        background-size: 14%,10%,10%,20%,15%,10%,45%,28%,10%,10%,10%;
+    body {
+        background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg),url(../../SVG/Recurso_Texto.svg) !important;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+        background-position: 10% 16%, 38% 21%,71% 20%,0% 24%,19% 30%,75% 31%,0% 74%, 118% 73%,35% 63%,64% 78%,88% 80%,100% 54%;
+        background-size: 14%,10%,10%,20%,15%,10%,44%,38%,10%,10%,10%,44%;
     }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
@@ -111,6 +110,7 @@
         margin-left: 10% !important;
         font-family: 'Montserrat', sans-serif !important;
         color: #526775;
+        margin-bottom: 14%;
     }
     
     
@@ -134,7 +134,7 @@
         text-decoration: none!important;
         cursor: pointer!important;
         border-radius: 35px;
-        padding: 20px 20px;
+        padding: 26px 56px;
         box-shadow: 0px 0px 66px -12px rgba(108,82,240,0.89);
         text-shadow: 1px 0;
         margin-top: 15%;
@@ -353,7 +353,77 @@
     }
     
     /*Fin seccion3*/
+    /*Seccion probar*/
+
+
+
+
+.background_seccion_probar{
+
+   
+    /*
+    background-image: url("../SVG/Recurso\ 18.svg"),url("../SVG/Recurso\ 14.svg"),url("../SVG/Recurso\ 15.svg"),url("../SVG/Recurso\ 16.svg"),url("../SVG/Recurso\ 17.svg");
+    background-repeat:no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position: 0% 50%, 115% 20%,30% 5%,65% 100%,90% 100%;
+    background-size: 45%,28%,10%,10%,10%;
+    */
+    height: 1000px !important;
+    width: auto;
+
+}
+
+
+.imagen_probar{
+
+    width: 60%;
+    margin-left: 54%;
+    margin-right: 51%;
+    margin-top: 37%;
+
+}
+
+.titulo_probar{
+    font-family: 'Avenir' !important;
+    color: #041160;
+    /* letter-spacing: 2px; */
+    margin-top: 64%;
+    font-weight: 900;
+    font-size: 320%;
+
+}
+.subtitulo_probar{
+    font-family: 'Montserrat', sans-serif !important;
+    color: #526775 !important;
+    font-size: 140% !important;
+    letter-spacing: 4px;
+    margin-top: 14%;
+    margin-bottom: 11%;
+
+}
+
+.button_probar
+{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 20%;
+    font-size: 21px ! important;
+    background-color: #041160 !important;
+    border: none!important;
+    color: white!important;
+    text-decoration: none!important;
+    margin: 6% 0%!important;
+    cursor: pointer!important;
+    border-radius: 35px;
+    padding: 17px 54px;
+    box-shadow: 0px 0px 66px -12px rgba(108,82,240,0.89);
+    /* text-shadow: 1px 0; */
+    margin-top: 8% !important;
+    font-weight: 600;
+    letter-spacing: 1px;
     
+}
+
+/*Fin seccion probar*/
+
     /*Inicio seccion4*/
     
     .background_seccion4{
