@@ -404,6 +404,17 @@
     
 
     /*Inicio seccion probar*/
+
+.column_imagenPrueba
+{
+    width: 60%;
+}
+
+.column_texto
+{
+    width: 40%;
+}
+
 .background_seccion_probar{
 
    
@@ -420,10 +431,10 @@
 
 
 .imagen_probar{
-    width: 60%;
-    margin-left: 47%;
-    margin-right: 62%;
-    margin-top: 30%;
+    width: 81%;
+    margin-left: 28%;
+    margin-right: 50%;
+    margin-top: 33%;
 
 }
 

@@ -12,23 +12,7 @@
 
 
 
-.button_float{
-    margin-top: 10px !important;
-    font-size: 23px ! important;
-    background-color:#041160 !important; 
-    border: none!important; 
-    color: white!important; 
-    text-decoration: none!important; 
-    margin: 2px 2px!important; 
-    cursor: pointer!important; 
-    border-radius: 30px;
-    float: right;
-    z-index: 9999;
-    
-}
-.button_float a {
-     color: white !important    ;
-}
+
 
 
 
@@ -387,8 +371,15 @@ body {
 /*Seccion probar*/
 
 
+.column_imagenPrueba
+{
+    width: 60%;
+}
 
-
+.column_texto
+{
+    width: 40%;
+}
 
 
 .background_seccion_probar{
