@@ -2,11 +2,15 @@
 {
 
 
+    .max_resolution{
+        display: none !important;
+    }
+
     body{
         background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg),url(../../SVG/Recurso_Texto.svg) !important;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
-        background-position: 10% 17%, 38% 20%,71% 21%,0% 24%,19% 30%,79% 33%,0% 72%, 113% 71%,35% 60%,64% 77%,88% 77%,100% 54%;
-        background-size: 14%,10%,10%,20%,15%,10%,45%,28%,10%,10%,10%,46%;
+        background-position: 10% 17%, 38% 20%,71% 21%,0% 24%,19% 30%,79% 33%,0% 72%, 113% 71%,35% 60%,64% 77%,88% 77%,100% 55%;
+        background-size: 14%,10%,10%,20%,15%,10%,45%,28%,10%,10%,10%,50%;
     }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
@@ -404,12 +408,12 @@
 /*Inicio seccion probar*/
 .column_imagenPrueba
 {
-    width: 45%!important;
+    width: 40%!important;
 }
 
 .column_texto
 {
-    width: 55% !important;
+    width: 60% !important;
 }
 
 .background_seccion_probar{
@@ -428,10 +432,10 @@
 
 
 .imagen_probar{
-    width: 81%;
-    margin-left: 28%;
+    width: 118%;
+    margin-left: 33%;
     margin-right: 50%;
-    margin-top: 33%;
+    margin-top: 66%;
 }
 
 .titulo_probar{
@@ -448,7 +452,7 @@
     color: #526775 !important;
     font-size: 100% !important;
     letter-spacing: 4px;
-    margin-top: 14%;
+    margin-top: 6%;
     margin-bottom: 11%;
 
 }

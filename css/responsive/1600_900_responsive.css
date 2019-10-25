@@ -1,6 +1,9 @@
 @media only screen  and (max-width:1759px) and (min-width:1600px)
 {
 
+    .max_resolution{
+        display: none !important;
+    }
 
     body{ 
     
