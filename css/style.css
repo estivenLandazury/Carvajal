@@ -8,8 +8,8 @@
 
 
 @font-face {
-    font-family:AvenirNextLTPro-Regular;
-    src: url("../font2/AvenirNextLTPro-Regular.otf") format("opentype");
+    font-family:Avenir Roman;
+    src: url("../font2/Avenir Roman.otf") format("opentype");
 }
 
 @media only screen and (min-width:1921px)
@@ -43,7 +43,7 @@ body {
 }
 
 .navbar{
-    font-family:'Montserrat', sans-serif !important;
+    font-family:'Avenir Roman', sans-serif !important;
     color: blue !important;
 }
 
@@ -87,7 +87,7 @@ body {
 .title{
  margin-top: 30%;
  margin-left: 10%;
- font-family: 'AvenirNextLTPro-Regular'  !important;
+ font-family:'Avenir Roman', sans-serif !important;
 }
 
 
