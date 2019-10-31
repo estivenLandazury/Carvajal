@@ -1,0 +1,17 @@
+@font-face {
+    font-family:Avenir Roman;
+    src: url("../font2/Avenir Roman.otf") format("opentype");
+}
+
+@font-face {
+    font-family:Avenir_Bold;
+    src: url("../font2/Avenir-Bold.ttf")  format('truetype');
+}
+
+/*
+html *
+{
+
+    font-family:'Avenir Roman', sans-serif;
+}
+*/

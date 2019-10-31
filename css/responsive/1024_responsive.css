@@ -26,7 +26,7 @@
     }
     
     .navbar{
-        font-family:'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         color: blue !important;
         width: 100%;
     }
@@ -70,7 +70,7 @@
     .title{
      margin-top: 20%;
      margin-left: 10%;
-     font-family: 'Montserrat', sans-serif  !important;
+     font-family:'Avenir_Bold', sans-serif !important;
     }
     
     
@@ -119,7 +119,7 @@
         font-size: 167% !important;
         margin-top: 5% !important;
         margin-left: 10% !important;
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         color: #526775;
         margin-bottom: 14%;
     }
@@ -179,9 +179,7 @@
     
         font-size: 290% !important;
         color: #338BFF;
-        font-weight: bolder;
-        text-shadow: 2px 0;
-        letter-spacing: 4px;
+        font-family:'Avenir_Bold', sans-serif !important;
         margin-left: 24%;
         margin-top: 10%;
     }
@@ -192,8 +190,7 @@
     {
         font-size: 300% !important;
         color: #041160;
-        font-weight: bolder;
-        /* text-shadow: 2px 0; */
+        font-family:'Avenir_Bold', sans-serif !important;
         letter-spacing: 1px;
         margin-top: 10%;
         margin-left: 41%;
@@ -276,7 +273,7 @@
         position: absolute;
         font-size: 300%;
         color: white !important;
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         font-weight: 800;
         top: -113%;
         right: 5%;
@@ -301,9 +298,7 @@
 
         color: white !important;
         
-        font-family: 'Montserrat', sans-serif !important;
-        
-        font-weight: 900;
+        font-family:'Avenir_Bold', sans-serif !important;
         
         top: 40% !important;
         
@@ -318,7 +313,7 @@
     .img_text{
         font-size: 130%;
         color: white !important;
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         font-weight: 100;
     }
 
@@ -348,7 +343,7 @@
     
     .paragraph_seccion3{
         
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         color: #526775;
         margin-top: 4%;
         margin-left: 3%;
@@ -357,7 +352,7 @@
     }
     
     .paragraph_lastPhrase_seccion3{
-        font-family: 'Montserrat', sans-serif  !important;
+        font-family:'Avenir Roman', sans-serif  !important;
         color: #526775;
         margin-top: 4%;    
        
@@ -382,7 +377,7 @@
     
     
     .title_seccion3{
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         color: #041160;
         margin-top: 4%;
         font-weight: 400;
@@ -442,12 +437,18 @@
     color: #041160;
     /* letter-spacing: 2px; */
     margin-top: 56%;
-    font-weight: 900;
+    font-family:'Avenir_Bold', sans-serif !important;
     font-size: 210%;
 
 }
+
+.titulo_probar span{
+    font-family:'Avenir_Bold', sans-serif !important;
+
+}
+
 .subtitulo_probar{
-    font-family: 'Montserrat', sans-serif !important;
+    font-family:'Avenir Roman', sans-serif !important;
     color: #526775 !important;
     font-size: 100% !important;
     letter-spacing: 3px;
@@ -458,7 +459,7 @@
 
 .button_probar
 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family:'Avenir Roman', sans-serif !important;
     font-weight: 20%;
     font-size: 20px ! important;
     background-color: #041160 !important;
@@ -514,7 +515,7 @@
 
     .title_seccion4
     {
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
 
         font-size: 218% !important ;
         
@@ -626,7 +627,7 @@
         
         font-size: 103%;
         
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         
         padding-top: 15%;
         
@@ -652,7 +653,7 @@
     
     .form_text
     {
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         color: #041160;
         margin-top: 4%;
         font-weight: 500;
@@ -666,7 +667,7 @@
     
     .form_tittle
     {
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         color: #041160;
         font-weight: 500;
         font-size: 200%;
@@ -859,7 +860,7 @@
         float: left;
         width: 20%;
         color: white;
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         font-weight: 300;
         margin-top: 25%;
     
@@ -870,7 +871,7 @@
     .title_footer{
     
         color: white;
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         font-weight: 300;
         font-size: 250%;
         letter-spacing: 1px;
@@ -881,7 +882,7 @@
     .text_footer
     {
         color: white;
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         font-weight: 340;
         font-size: 110%;
         letter-spacing: 1px;
@@ -959,7 +960,7 @@
 
     .articulo_link
     {
-        font-family: 'Montserrat', sans-serif !important;
+        font-family:'Avenir Roman', sans-serif !important;
         margin-left: 28%;
         color: #041160;
         font-size: 103%;
