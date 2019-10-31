@@ -2,14 +2,15 @@
 {
 
 
-    body{
-        
-        
-        background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg) !important;
-        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
-        background-position: 10% 19%, 38% 22%,76% 24%,0% 27%,19% 35%,83% 37%,0% 61%, 113% 65%,35% 56%,64% 73%,88% 73%;
-        background-size: 14%,10%,10%,20%,15%,10%,45%,28%,10%,10%,10%;
+    .max_resolution{
+        display: none !important;
+    }
     
+    body{
+        background-image: url(../../SVG/Recurso\ 3.svg), url(../../SVG/Recurso\ 7.svg), url(../../SVG/Recurso\ 4.svg), url(../../SVG/Recurso\ 8.svg), url(../../SVG/Recurso\ 16.svg), url(../../SVG/Recurso\ 5.svg),url(../../SVG/Recurso\ 18.svg),url(../../SVG/Recurso\ 14.svg),url(../../SVG/Recurso\ 15.svg),url(../../SVG/Recurso\ 16.svg),url(../../SVG/Recurso\ 17.svg),url(../../SVG/Recurso_Texto.svg) !important;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat, no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+        background-position: 10% 15%, 38% 18%,76% 18%,0% 22%,19% 27%,83% 30%,0% 66%, 113% 65%,35% 56%,64% 73%,88% 73%,100% 48%;
+        background-size: 14%,10%,10%,20%,15%,10%,45%,28%,10%,10%,10%,50%;
     }
 
     ul.nav.navbar-nav.navbar-right.text-center.navbar {
@@ -397,6 +398,69 @@
     
     
     /*Fin seccion3*/
+
+        /*Inicio seccion probar*/
+        .background_seccion_probar{
+
+   
+            /*
+            background-image: url("../SVG/Recurso\ 18.svg"),url("../SVG/Recurso\ 14.svg"),url("../SVG/Recurso\ 15.svg"),url("../SVG/Recurso\ 16.svg"),url("../SVG/Recurso\ 17.svg");
+            background-repeat:no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
+            background-position: 0% 50%, 115% 20%,30% 5%,65% 100%,90% 100%;
+            background-size: 45%,28%,10%,10%,10%;
+            */
+            height: 700px !important;
+            width: auto;
+        
+        }
+        
+        
+        .imagen_probar{
+            width: 109%;
+            margin-left: 5%;
+            margin-right: 50%;
+            margin-top: 39%;
+        }
+        
+        .titulo_probar{
+            font-family: 'Avenir' !important;
+            color: #041160;
+            /* letter-spacing: 2px; */
+            margin-top: 60%;
+            font-weight: 900;
+            font-size: 200%;
+        
+        }
+        .subtitulo_probar{
+            font-family: 'Montserrat', sans-serif !important;
+            color: #526775 !important;
+            font-size: 86% !important;
+            letter-spacing: 3px;
+            margin-top: 6%;
+            margin-bottom: 11%;
+        }
+        
+        .button_probar
+        {
+            font-family: 'Montserrat', sans-serif !important;
+            font-weight: 20%;
+            font-size: 16px ! important;
+            background-color: #041160 !important;
+            border: none!important;
+            color: white!important;
+            text-decoration: none!important;
+            margin: 6% 0%!important;
+            cursor: pointer!important;
+            border-radius: 35px;
+            padding: 10px 20px;
+            box-shadow: 0px 0px 66px -12px rgba(108,82,240,0.89);
+            /* text-shadow: 1px 0; */
+            margin-top: 8% !important;
+            font-weight: 600;
+            letter-spacing: 1px;
+            
+        }
+        /*Fin seccion probar*/
     
     /*Inicio seccion4*/
     
