@@ -7,6 +7,11 @@
 */
 
 
+@font-face {
+    font-family:AvenirNextLTPro-Regular;
+    src: url("../font2/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+
 @media only screen and (min-width:1921px)
 {
 
@@ -82,7 +87,7 @@ body {
 .title{
  margin-top: 30%;
  margin-left: 10%;
- font-family: 'Montserrat', sans-serif  !important;
+ font-family: 'AvenirNextLTPro-Regular'  !important;
 }
 
 
