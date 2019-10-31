@@ -360,6 +360,19 @@
     /*Fin seccion3*/
 
 
+/*Seccion probar*/
+
+
+.column_imagenPrueba
+{
+    width: 60%;
+}
+
+.column_texto
+{
+    width: 40%;
+}
+
     .background_seccion_probar{
 
    
