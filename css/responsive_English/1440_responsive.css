@@ -386,7 +386,7 @@
     .imagen_probar{
     
         width: 74%;
-        margin-left: 36%;
+        margin-left: 33%;
         margin-right: 51%;
         margin-top: 28%;
     
@@ -409,7 +409,7 @@
     .subtitulo_probar{
         font-family:'Avenir Roman', sans-serif !important;
         color: #526775 !important;
-        font-size: 150% !important;
+        font-size: 130% !important;
         letter-spacing: 3px;
         margin-top: 14%;
         margin-bottom: 11%;
